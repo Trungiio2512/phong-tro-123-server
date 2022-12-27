@@ -12,7 +12,7 @@ module.exports = {
             price: { type: Sequelize.STRING },
             acreage: { type: Sequelize.STRING },
             published: { type: Sequelize.STRING },
-            hastag: { type: Sequelize.STRING },
+            hashtag: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: "TIMESTAMP",

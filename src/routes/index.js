@@ -1,7 +1,8 @@
+import { notFound } from "../middlewares/http_errors";
+import auth from "./auth";
 const initRoutes = (app) => {
-    return app.use("/*", (req, res) => {
-        return res.send("route not found");
-    });
+    app.use("/api/v1/auth", auth);
+    app.use(notFound);
 };
 
 export default initRoutes;
