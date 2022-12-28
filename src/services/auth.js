@@ -13,7 +13,7 @@ const generateAccessToken = (data) =>
 const generateRefreshToken = (data) =>
     jwt.sign(data, process.env.JWT_REFRESH_KEY, { expiresIn: "30d" });
 
-export const register = ({ name, phone, password }) => {
+export const register = ({ name, phone, password, type }) => {
     return new Promise(async (resolve, reject) => {
         try {
             const response = await db.User.findOrCreate({
@@ -22,6 +22,7 @@ export const register = ({ name, phone, password }) => {
                     id: v4(),
                     name,
                     phone,
+                    roleCode: type,
                     password: hashPassword(password),
                 },
             });
@@ -35,9 +36,7 @@ export const register = ({ name, phone, password }) => {
 
             resolve({
                 err: accessToken ? 0 : 2,
-                mess: accessToken
-                    ? "Register success"
-                    : "Phone number has been registered",
+                mess: accessToken ? "Register success" : "Phone number has been registered",
                 accessToken,
                 refreshToken,
             });

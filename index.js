@@ -2,11 +2,9 @@ import express from "express";
 import cors from "cors";
 import initRoutes from "./src/routes";
 import connection from "./config_database";
-
 require("dotenv").config();
 
 const app = express();
-
 app.use(
     cors({
         origin: process.env.CLIENT_URL,

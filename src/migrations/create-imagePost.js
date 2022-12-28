@@ -7,7 +7,7 @@ module.exports = {
                 allowNull: false,
                 // autoIncrement: true,
                 primaryKey: true,
-                type: Sequelize.INTEGER,
+                type: Sequelize.STRING,
             },
             images: { type: Sequelize.STRING },
             createdAt: {
