@@ -36,7 +36,7 @@ export const register = ({ name, phone, password, type }) => {
 
             resolve({
                 err: accessToken ? 0 : 2,
-                mess: accessToken ? "Register success" : "Phone number has been registered",
+                msg: accessToken ? "Register success" : "Phone number has been registered",
                 accessToken,
                 refreshToken,
             });
@@ -52,7 +52,7 @@ export const login = ({ phone, password }) => {
                 where: { phone },
                 raw: true,
             });
-            const hasPass = bcrypt.compareSync(password, response.password);
+            const hasPass = response && bcrypt.compareSync(password, response.password);
 
             const token = hasPass
                 ? generateAccessToken({ id: response.id, phone: response.phone })
@@ -63,7 +63,7 @@ export const login = ({ phone, password }) => {
 
             resolve({
                 err: token ? 0 : 2,
-                mess: token
+                msg: token
                     ? "Login success"
                     : response
                     ? "Password is wrong"

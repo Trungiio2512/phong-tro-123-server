@@ -5,8 +5,9 @@ import { badRequest, internalServerError } from "../middlewares/http_errors";
 
 export const register = async (req, res) => {
     try {
-        if (!req.body !== "R2" || !req.body !== "R3")
+        if (req.body.type !== "R2" && req.body.type !== "R3") {
             return badRequest(res, "Type user not allowed");
+        }
 
         const { error } = Joi.object({ name, password, phone, type }).validate(req.body);
 
