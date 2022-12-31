@@ -6,1340 +6,1891 @@
     "body": [
         {
             "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/e4b61c2f-474f-4a54-b231-64bc454a4161_1671707486.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/cab891b6-a8a1-449e-9502-e5ca4253a294_1671707474.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/e00ea58b-7da4-4fad-849c-50e3b817c005_1671707474.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/a1b1d10e-b676-4184-b7ae-62c3eb65617f_1671707475.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/46cff50c-7b40-409c-8afb-fbfd9e1693fc_1671707475.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/b696b85a-6dcc-430c-b799-0cea94979dde_1671707476.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/f2e2650a-88b9-4e17-8a56-076102c5208b_1671707476.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/91a702e5-1e12-4415-9513-5a03ba84d355_1671707478.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/407bb96e-58b3-4b66-9908-fc0927c167df_1671707478.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/a4c4a636-e3b3-452e-9b97-0b596c832c49_1671707480.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/3e82873d-a4f4-4ea0-894e-06fdca6f23df_1671707480.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/f068f847-629d-47e3-a356-23d28f2add3a_1671707481.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/7f520fd3-3caf-4c45-91a5-d9919fa6ad47_1671707481.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/533ff9c9-5c10-44a4-b3b7-b7cd3fcab0a0_1671707482.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/032b6650-b2ee-485b-b45f-1d075a245b53_1671707482.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/718f49d2-cc31-423c-8c43-360f76f40879_1671707483.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/5322710a-937c-4a96-b307-59e2a7d30dad_1671707483.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/9665c1c7-8084-45db-b575-2fb3af302336_1671707485.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/602ffcd6-7e56-45b6-be22-bd8ee82b1152_1671707485.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/e4b61c2f-474f-4a54-b231-64bc454a4161_1671707486.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/cab891b6-a8a1-449e-9502-e5ca4253a294_1671707474.jpg"
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/6310726d-d075-4e35-b1cb-cf5616bf5212_1658240491.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/9c60836e-26b2-4737-a6c8-60cb5187fa4c_1658240485.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/716c753e-8e03-4cc8-9d09-e52ec19ce01b_1658240485.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/400e7ebd-5d88-48af-8599-0d074a1ee014_1658240494.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/1379ebdf-eda5-4ef8-bb22-7da1d19551f2_1658240490.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/6310726d-d075-4e35-b1cb-cf5616bf5212_1658240491.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/19/9c60836e-26b2-4737-a6c8-60cb5187fa4c_1658240485.jpg"
             ],
             "header": {
-                "title": "Căn hộ Studio cửa sổ lớn Full nội thất ngay Tân Quy gần ĐH TDTU , RMIT Lotte Q7",
-                "star": "3",
+                "title": "Phòng Cho Nam Trong Chung Cư Cao Cấp",
+                "star": "5",
                 "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 7",
-                    "classType": "Cho thuê căn hộ Quận 7"
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận Bình Thạnh",
+                    "classType": "Cho thuê căn hộ Quận Bình Thạnh"
                 },
-                "address": "Địa chỉ: Đường Nguyễn Thị Thập, Phường Tân Quy, Quận 7, Hồ Chí Minh",
+                "address": "Địa chỉ: 57 Quốc Lộ 13, Phường 26, Quận Bình Thạnh, Hồ Chí Minh",
                 "attributes": {
-                    "price": "5.5 triệu/tháng",
-                    "acreage": "30m2",
+                    "price": "5 triệu/tháng",
+                    "acreage": "120m2",
                     "published": "Hôm nay",
-                    "hashtag": "613401"
+                    "hashtag": "604250"
                 }
             },
             "mainContent": {
                 "header": "Thông tin mô tả",
                 "content": [
-                    "STUDIO CỬA SỔ RỘNG THOÁNG ĐỖ ĐƯỢC OTO QUẬN 7",
-                    "Vị trí:",
-                    "Nằm ở một vị trí có thể sánh đôi với các anh Lớn Sunrise City, Himlam Riverside, Florita, Sai Gon Mia.",
-                    "Là 1 nút giao trung tâm kết nối giữa Khu đô thị Himlam xa hoa lộng lẫy bậc nhất quận 7, KDC Trung Sơn, Quận 8, Quận 5, Quận 1, Quận 10. Đi đâu cũng dễ dàng",
-                    "- Phòng full nội thất, chỉ xách vali vào ở thôi",
-                    "- Không gian rộng, có khuôn viên sinh hoạt",
-                    "- Xung quanh có sân banh, hồ bơi",
-                    "- Phòng mới 100%",
-                    "- Ở được từ 2-3 người",
-                    "- Cho nuôi pet",
-                    "- Có chỗ đậu oto",
-                    "Liên hệ : Hà Phiếu - 0583 165 215 ( zalo / iMess) để được tư vấn và hỗ trợ chốt phòng"
+                    "Cho Nam share phòng trong căn hộ 3PN 120m2 :",
+                    "2 ban công, 2 wc",
+                    "Full NT ( Máy nước nóng, máy lạnh, giường, tủ, bếp, tủ lạnh, máy giặc cửa ngang mới, phòng khách & phòng bếp )",
+                    "Tầng 3 nội khu : hồ bơi, phòng gym, khu sinh hoạt cộng đồng, spa & coffee , quán ăn",
+                    "Tầng trệt : Siêu thị win mart , anh văn Việt Mỹ",
+                    "Chung cư mặt tiền, sảnh ra vào rộng rãi",
+                    "- có chỗ đậu oto & xe máy trên sảnh",
+                    "- 2 hầm xe rộng rãi"
                 ]
             },
             "overview": {
                 "header": "Đặc điểm tin đăng",
                 "content": [
-                    { "name": "Mã tin:", "content": "#613401" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin VIP 2" },
-                    { "name": "Ngày đăng:", "content": "Thứ 5, 18:12 22/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 5, 18:12 29/12/2022" }
+                    {
+                        "name": "Mã tin:",
+                        "content": "#604250"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Nam"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP nổi bật"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 3, 11:11 09/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Chủ Nhật, 11:11 14/08/2022"
+                    }
                 ]
             },
             "contact": {
                 "header": "Thông tin liên hệ",
                 "content": [
-                    { "name": "Liên hệ:", "content": "BÙI HÀ PHIẾU" },
-                    { "name": "Điện thoại:", "content": "0583165215" },
-                    { "name": "Zalo", "content": "0583165215" }
+                    {
+                        "name": "Liên hệ:",
+                        "content": "vylost297"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0767326068"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0767326068"
+                    }
                 ]
             }
         },
         {
             "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931050385-9bf05d2fe4a23c061823725939986ed4_1671728283.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923008766-621c2b70c8a09e3ccd21a502b120b684_1671728260.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923013540-a72543eaf6549caf1de2df2eab86c147_1671728260.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923019513-2264ca8a74f6ab7b7b69a445dcbe6799_1671728260.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923027761-b0afbf87fe0648f823d5519591dde23f_1671728261.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923030347-c14718e22937698207bb9b779cec89b1_1671728261.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923042221-70b6f520f95e8d2ee524a63f24f2f4f6_1671728262.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923051537-b742ff9d3e833406ba0259559724bb9d_1671728262.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978923056994-aa2bcc9373357c144f397578ce4e2ea0_1671728263.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978930988097-ee93de74379660846e9a554d43c21327_1671728280.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978930998590-bdf40fbc138e2b7be77ac7b6ada85788_1671728280.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931000667-906771f0732a05221dbbbb948fd1b10f_1671728281.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931007043-63bf9821da28c5b8eabeae7471002560_1671728281.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931016410-7bb28aeda47061269ba88b4580ab487b_1671728281.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931025831-2ca2e28ea7e7598d1759f94333f04fe5_1671728281.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931029059-1ec7c4dffbe04f2bfa92cc8d80ce3e0e_1671728282.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931037008-dcf14d073450881716c5d5725eb630c7_1671728282.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931042455-153640bb54892d34d3388a958b659e35_1671728283.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931042572-4bfd38bb18199d7c4ed491fc07c4d320_1671728283.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/22/z3978931050385-9bf05d2fe4a23c061823725939986ed4_1671728283.jpg"
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp10_1582776285.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp22_1582776045.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp32_1582776058.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp9_1582776078.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp37_1582776086.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/tm1_1582776272.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp10_1582776285.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/02/27/pp22_1582776045.jpg"
             ],
             "header": {
-                "title": "CĂN HỘ DỊCH VỤ CAO CẤP 1-2 PHÒNG NGỦ, BALCONY THOÁNG MÁT.",
+                "title": "Căn hộ mini khu Nguyễn Gia Trần Não trung tâm Quận 2. DT từ : 21m2 - 36m2, giá từ 4.1tr -7.6tr",
+                "star": "3",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận 2",
+                    "classType": "Cho thuê căn hộ Quận 2"
+                },
+                "address": "Địa chỉ: 21 Đường số 10, Phường Bình An, Quận 2, Hồ Chí Minh",
+                "attributes": {
+                    "price": "4.1 triệu/tháng",
+                    "acreage": "21m2",
+                    "published": "Hôm nay",
+                    "hashtag": "296453"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "CHO THUÊ CĂN HỘ MINI DIỆN TÍCH TỪ TỪ : 21M2 - 40M2, MỚI GIÁ TỐT TẠI TRUNG TÂM QUẬN 2- ĐƯỜNG 10 TRẦN NÃO, F BÌNH AN. Q 2; Tp . HCM",
+                    "GIÁ THUÊ THỪ:  4.1 Triệu/Tháng đến 7.6 Triệu/Tháng",
+                    "Nhà ở yên tĩnh, mới , đẹp, an ninh, kết nối thuận tiện các quận vùng lân cận như Q1, Q BÌNH THẠNH, Q3,Q1, THỦ ĐỨC , Q9…",
+                    "Tiện ích: Cho quý khách chọn căn hộ mini phường Bình An, Quận 2, HCM.",
+                    "Chọn nhà ở ngay gần đường Trần Não Trung Tâm Quận 2; Tp. HCM là quý khách sở hữu nhiều tiện ích như:",
+                    "- Gần công viên thuận tiện cho việc rèn luyện sức khỏe và thư giãn hàng ngày",
+                    "- Gần chợ, siêu thị, TT thương mai, chợ, quán cà phê , nhà hàng…",
+                    "- Gần bệnh viện , TT y tế, phòng khám…",
+                    "- Gần trường học, công, tư thục, quốc tế, trường năng kiếu ; trường Đại Học …",
+                    "- Gần các trung tâm ngoại ngữ; Ngân Hàng; Phòng Công chứng …",
+                    "Nhà thuê ở đường 10 phường Bình An mới 100%, khu nhà ở thoáng mát hành lang rộng chuẩn với 1 thang máy, 1 thang bộ, hệ thống PCCC, camera an ninh,kiểm soát kĩ cửa ra vào mỗi phòng,có bảo vệ giữ xe,có máy giặt ,phòng rộng có cửa sổ thông, thoáng mát,có chỗ phơi đồ riêng mỗi phòng, có bếp, có bồn rửa chén, phòng tắm rộng đầy đủ tiện nghi, wifi miễn phí.",
+                    "Quý khách sẽ hài lòng khi chọn thuê nhà an cư tại trung tâm Quận 2 Tp. HCM.",
+                    "Liên hệ xem nhà hoặc cần thêm thông tin vui lòng gọi số: 093 116 22 55"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#296453"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 2"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 3, 10:06 09/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 3, 10:06 16/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Nguyễn Thị Liên"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0931162255"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0931162255"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/23c9422905c7f999a0d659_1660100658.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/d16e16a95147ad19f45656_1660100664.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/8e3cfdecba02465c1f1355_1660100658.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/68bc8867cf8933d76a9857_1660100660.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/b814b5c8f2260e78573758_1660100662.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/04/25/b813c8f58f1b73452a0a60_1650874569.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/04/25/b54529b46e5a9204cb4b61_1650874571.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/z3632027092979-8daa593c24da8a845acbbb1bb58060ca_1660100628.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/z3632027093110-d8e20724215b376ef771964808900f4e_1660100628.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/23c9422905c7f999a0d659_1660100658.jpg"
+            ],
+            "header": {
+                "title": "Phòng FULL Nội Thất cao cấp Ngay Sân bay TSN, Rộng rãi, An ninh, GIá rẻ",
+                "star": "2",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Tân Bình",
+                    "classType": "Cho thuê căn hộ dịch vụ Quận Tân Bình"
+                },
+                "address": "Địa chỉ: 2/26 Đường Bạch Đằng, Phường 2, Quận Tân Bình, Hồ Chí Minh",
+                "attributes": {
+                    "price": "4.5 triệu/tháng",
+                    "acreage": "25m2",
+                    "published": "6 giờ trước",
+                    "hashtag": "599644"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Phòng cao cấp full nội thất, sang trọng phù hợp với người đi làm, cặp vợ chồng son.",
+                    "Ngay Gần Sân Bay Tân Sơn Nhất, Công viên Gia định,…",
+                    "Liên hệ NGAY để xem phòng: 0931610338",
+                    "Nội thất: - Một giường lớn, 1 tủ đồ, 1 tủ lạnh, máy lạnh, tivi, 1 bộ bàn ghế, bếp,...",
+                    "Phòng thật như hình",
+                    "Tiện nghi hàng đầu:",
+                    "+ Cửa bảo mật vân tay và mật khẩu An ninh",
+                    "+ Wifi internet đầy đủ",
+                    "+ Free xe",
+                    "+ Có nhà vệ sinh riêng,...",
+                    "+ Giờ tự do,",
+                    "+ Phòng trên lầu nên đi thang bộ, phù hợp với người muốn nâng cao sức khỏe, thích rèn luyện thể lực",
+                    "+ Không phù hợp với người không thích đi thang bộ",
+                    "Giá thuê: 4tr5",
+                    "Địa chỉ: 2/26 Bạch đằng, quận Tân Bình, Tp.HCM – Ngay Gần Sân Bay Tân Sơn Nhất, Công viên Gia định,…",
+                    "Liên hệ NGAY để xem phòng: 0931610338"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#599644"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 10:05 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 4, 10:05 17/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Trịnh Phuc"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0931610338"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0931610338"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/f93e1ece578892d6cb99_1660067038.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/2abd7f4d360bf355aa1a_1660067037.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/140ca1f2e8b42dea74a5_1660067037.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/356f4c9105d7c08999c6_1660067038.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/b63fe8cfa18964d73d98_1660067038.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/d9060ef747b182efdba0_1660067038.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/f93e1ece578892d6cb99_1660067038.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/2abd7f4d360bf355aa1a_1660067037.jpg"
+            ],
+            "header": {
+                "title": "Khai Trương Từng Bừng CHDV Mới",
+                "star": "2",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Tân Phú",
+                    "classType": "Cho thuê căn hộ dịch vụ Quận Tân Phú"
+                },
+                "address": "Địa chỉ: Nguyễn Văn Săng, Phường Tân Sơn Nhì, Quận Tân Phú, Hồ Chí Minh",
+                "attributes": {
+                    "price": "6 triệu/tháng",
+                    "acreage": "40m2",
+                    "published": "Hôm nay",
+                    "hashtag": "605655"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "* Tưng Bừng Khai Trương CHDV Mới *",
+                    "- Địa Chỉ: Nguyễn Văn Săng, Phường Tân Sơn Nhì, Phú Nhuận",
+                    "- Thích hợp ở gia đình, Kinh doanh onl,...",
+                    "- Phòng có ban công lớn, và cửa sổ thoáng mát",
+                    "- 3 loại phòng studio, 1pn1pk , 2pn 1pk",
+                    "- Giá : 2pn ban công ngoài , -8tr",
+                    "2pn ban công trong 7tr5",
+                    "1pn ban công ngoài 6tr5",
+                    "1pn ban công trong 6tr",
+                    "- Có 1 máy lạnh, thêm ml thêm 500k",
+                    "Lh/Zalo: 0937475715 hoặc ib để được tư vấn hỗ trợ xem phòng trực tiếp"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605655"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 00:44 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 2, 00:44 15/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Nguyễn Hoàng Nhân"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0937475715"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0937475715"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/dab682d66269a037f978_1660053876.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/2b3ec0242d9befc5b68a_1660053814.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/6bc12eefc350010e5841_1660053814.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/86a861468ff94da714e8_1660053815.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/664f93767ec9bc97e5d8_1660053816.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/34886ef8834741191856_1660053817.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/d8de4fd6a26960373978_1660053817.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/4f7dfb1c1ba3d9fd80b2_1660053875.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/5c0cf16f11d0d38e8ac1_1660053875.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/8f73f10d11b2d3ec8aa3_1660053876.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/55d8fabe1a01d85f8110_1660053876.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/dab682d66269a037f978_1660053876.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/2b3ec0242d9befc5b68a_1660053814.jpg"
+            ],
+            "header": {
+                "title": "Cho Thuê CHDV 1pn 1pk và 2pn Phòng mới",
+                "star": "2",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Gò Vấp",
+                    "classType": "Cho thuê căn hộ dịch vụ Quận Gò Vấp"
+                },
+                "address": "Địa chỉ: 241 Đường số 20, Phường 5, Quận Gò Vấp, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5.5 triệu/tháng",
+                    "acreage": "40m2",
+                    "published": "Hôm nay",
+                    "hashtag": "605648"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Cho Thuê CHDV mới",
+                    "Địa chỉ: 241 Đường Số 20 P5 GV",
+                    "- Có 2 dạng phòng:",
+                    "+ 1pn 1pk",
+                    "+ 2pn 1pk",
+                    "- Nội thất: Như Hình",
+                    "- Điện: 3k5",
+                    "- Nước: 100k/Ng",
+                    "- Wifi: 100k/P",
+                    "Còn lại free",
+                    "Lh: hoặc ib zalo để được tư vấn hỗ trợ xem p trực tiếp"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605648"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 3, 21:05 09/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Chủ Nhật, 21:05 14/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Nguyễn Hoàng Nhân"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0937475715"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0937475715"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/924d5e18ffa03dfe64b1_1660052080.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/3b8e3f8a9e325c6c0523_1660052077.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/4d6cd27973c1b19fe8d0_1660052077.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/17d342f1e34921177858_1660052079.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/329e20c1817943271a68_1660052079.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/924d5e18ffa03dfe64b1_1660052080.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/3b8e3f8a9e325c6c0523_1660052077.jpg"
+            ],
+            "header": {
+                "title": "Cho Thuê CHDV An Ninh Cao Có quản lí trực cả ngày",
                 "star": "2",
                 "class": {
                     "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Bình Thạnh",
                     "classType": "Cho thuê căn hộ dịch vụ Quận Bình Thạnh"
                 },
-                "address": "Địa chỉ: 120A Đường Hoàng Hoa Thám, Phường 7, Quận Bình Thạnh, Hồ Chí Minh",
+                "address": "Địa chỉ: 702 Đường Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Hồ Chí Minh",
                 "attributes": {
-                    "price": "9 triệu/tháng",
-                    "acreage": "45m2",
+                    "price": "3.5 triệu/tháng",
+                    "acreage": "20m2",
                     "published": "Hôm nay",
-                    "hashtag": "613422"
+                    "hashtag": "605646"
                 }
             },
             "mainContent": {
                 "header": "Thông tin mô tả",
                 "content": [
-                    "Căn hộ 1 phòng ngủ - 2 phòng ngủ riêng biệt, nội thất cao cấp mới 100% chưa bóc tem.",
-                    "Mặt tiền đường Hoàng hoa thám. Tòa nhà có 3 trục thông tầng, diện tích rộng, bancon và cửa sổ cực kỳ thoáng mát.",
-                    "Vị trí cực đẹp, thuận tiện đi lại các quận trung tâm, là vị trí sống lý tưởng.",
-                    "Đối diện Highlands coffee Hoàng hoa thám. View cực đẹp và thoáng mát. yên tĩnh.",
-                    "Khoá vân tay 2 lớp an ninh, diện tích thoải mái cho 1 gia đình lớn sinh sống!",
-                    "Tin thật ảnh thật , đúng thực tế để đỡ mất TG cho đôi bên!",
-                    "giá thuê từ 8-14 triệu đồng 1 tháng.",
-                    "4 căn hộ 2 phòng ngủ, bếp riêng tách biệt phòng ngủ, phòng khách, máy giặt riêng, wc riêng biệt.",
-                    "1 căn hộ 1 phòng ngủ, bếp riêng tách biệt, có phòng khách, máy giặt riêng...."
+                    "Địa chỉ: 702 xvnt - p25- Bình Thạnh",
+                    "Giá:3tr5",
+                    "- Phòng trống ( có máy lạnh) , giới hạn giờ (12h) nếu về quá giờ gọi qli",
+                    "- Cọc 1",
+                    "Phí khác:",
+                    "- Điện 3k5, nước 100k/ người , xe số 100k/c tay ga 200k/C, dịch vụ: 130k",
+                    "Lh: 0937475715 hoặc ib zalo để được tư vấn hỗ trợ xem phòng trực tiếp"
                 ]
             },
             "overview": {
                 "header": "Đặc điểm tin đăng",
                 "content": [
-                    { "name": "Mã tin:", "content": "#613422" },
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605646"
+                    },
                     {
                         "name": "Khu vực",
                         "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
                     },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin VIP 3" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 00:11 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 00:11 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "vuhoangdo799" },
-                    { "name": "Điện thoại:", "content": "0907896799" },
-                    { "name": "Zalo", "content": "0907896799" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/38932bc3-e752-4ed5-9af8-440bb1c0469a_1671619096.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/27484848-c68a-4e8e-aa0f-46f2717e5e1b_1671619077.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/c72e4aa6-6dc2-4291-9030-09462f7c67f9_1671619076.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/0e703e07-235d-4cc5-89b8-f37f76810559_1671619081.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/a4ba0012-ec1c-45b6-8db5-6230c19c6819_1671619085.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/0cbc5aab-f508-401c-8c2e-14a905e0db94_1671619090.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/150255b0-7bb1-44e0-bd09-16abd8d192af_1671619085.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/9711b228-d671-4cbc-b31a-5cb8877b8419_1671619092.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/60bbd80b-a3f5-4c2d-adf8-4bc9fc6b75bb_1671619095.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/38932bc3-e752-4ed5-9af8-440bb1c0469a_1671619096.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/21/27484848-c68a-4e8e-aa0f-46f2717e5e1b_1671619077.jpg"
-            ],
-            "header": {
-                "title": "CHDV gần Bitexco 40m2, đầy đủ nội thất, bancon siêu bự",
-                "star": "2",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận 1",
-                    "classType": "Cho thuê căn hộ dịch vụ Quận 1"
-                },
-                "address": "Địa chỉ: 44/4 Đường Nam Kỳ Khởi Nghĩa, Phường Nguyễn Thái Bình, Quận 1, Hồ Chí Minh",
-                "attributes": {
-                    "price": "8.5 triệu/tháng",
-                    "acreage": "40m2",
-                    "published": "Hôm nay",
-                    "hashtag": "613319"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Mình cần cho thuê CHDV full nội thất, với các thông tin sau:",
-                    "- Vị trí:",
-                    "+ 44/4 Nam Kỳ Khởi Nghĩa, P. Nguyễn Thái Bình, Quận 1",
-                    "+ Khoảng cách: Hàm Nghi 2 phút đi bộ. Nguyễn Huệ, Bitexco, Saigon Centre 5-7 phút đi bộ, chợ Bến Thành 3-5 phút đi bộ. Tất cả chỉ cần đi bộ là đến.",
-                    "- Nội thất: đầy đủ không thiếu món gì",
-                    "- Diện tích phòng: 25 m2, tất cả các phòng đều có bancon và cửa sổ.",
-                    "- Tiện ích: wifi và giặt sấy free, nơi để xe thoải mái, giờ giấc tự do, khoá cửa vân tay, camera an ninh, hàng xóm cực kỳ yên tĩnh vì toàn người lớn tuổi…",
-                    "- Giá các dịch vụ khác:",
-                    "+ Điện: 3.500/kw",
-                    "+ Nước: 150k/ người",
-                    "+ Gửi xe: 100k/chiếc",
-                    "+ Wifi: free",
-                    "+ Giặt sấy: free",
-                    "Cảm ơn các bạn đã đọc tin!"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613319" },
                     {
-                        "name": "Khu vực",
-                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
                     },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin VIP 3" },
-                    { "name": "Ngày đăng:", "content": "Thứ 4, 17:39 21/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 17:39 26/12/2022" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Bùi Xuân Hải" },
-                    { "name": "Điện thoại:", "content": "0934305355" },
-                    { "name": "Zalo", "content": "0934305355" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2514432228819-3e405f787d405232fb6950e61c4e3220_1671452034.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2495514093902-2361dbfc6d8f6a79c29a3f9c49abf6c8_1671452031.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2495514100147-2a295204e2b2bdfa8a43966d3f8899f8_1671452031.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2498156843805-41d7c797214c073758f62135c94cd568_1671452032.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2502266817965-dd2956e8bf0b5dfa739366c0cc6763d6_1671452032.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2502266961149-e472f5b85a514171cc2cda9dff02afd1_1671452033.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2514432219924-161f85dcb8440fbd8fca51b1d496d68d_1671452033.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2514432222970-7c1917305e4569989bcabb9390529544_1671452034.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2514432228819-3e405f787d405232fb6950e61c4e3220_1671452034.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z2495514093902-2361dbfc6d8f6a79c29a3f9c49abf6c8_1671452031.jpg"
-            ],
-            "header": {
-                "title": "Cho thuê căn hộ EcoXuân 02 PN FULL nội thất",
-                "star": "2",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Huyện Thuận An",
-                    "classType": "Cho thuê căn hộ Huyện Thuận An"
-                },
-                "address": "Địa chỉ: A08.03 Đại Lộ Bình Dương, Phường Lái Thiêu, Huyện Thuận An, Bình Dương",
-                "attributes": {
-                    "price": "7 triệu/tháng",
-                    "acreage": "67m2",
-                    "published": "Hôm nay",
-                    "hashtag": "613125"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Cho thuê căn hộ EcoXuân Sky Residences, Block A, 02 phòng ngủ (67m²), liền kề Lotte Mart, nhà mới. (Chính chủ).",
-                    "+ 02 phòng ngủ (67m²), 02 WC, phòng khách & phòng ăn, khu bếp riêng, có lô gia và sân phơi tách biệt, phòng ngủ đều có cửa sổ, thông thoáng, view hồ bơi mát mẻ.",
-                    "+ Nội thất đầy đủ.",
-                    "+ Giá cho thuê: Ibox",
-                    "Tiện ích:",
-                    "+ Hồ bơi người lớn trẻ em, khu vui chơi trẻ em, công viên dạo bộ, sân tennis, gym, yoga, siêu thị bán lẻ Vinmart, cửa hàng tiện ích..",
-                    "+ Cách khu du lịch sinh thái (Dìn Ký, Phương Nam, Thanh Cảnh,.. ) 3km, BV quốc tế Hạnh Phúc 8 phút, chợ đầu mối Thủ Đức 5km.",
-                    "+ Tiện ích xung quanh (trường học, Spa, Ngân hàng, FPT, quán xá, ngân hàng, Viện Kiểm Soát, trụ sở Công An Tp. Thuận An và BCH Quân Sự, ) lân cận bán kính 1km trở lại.",
-                    "+ An ninh 24/7.",
-                    "Vị trí:",
-                    "+ Cách QL13 100m, siêu thị Lotte Mart và BV quốc tế Becamex kế bên, TT hành chính Lái Thiêu 1km.",
-                    "+ Cách TTTM Aeon Mall, KCN Vsip1, KCN Đồng An và sân Golf Sông Bé 05phút, chợ Lái Thiêu 700m, Bách hóa xanh, điện máy xanh 03 phút,..",
-                    "+ Không gian sống yên tĩnh, mát mẻ, KDC nằm ngay TT Lái Thiêu, Tp Thuận An. Về TpHCM 20 phút, TDM 15 phút, Q. 12 08 phút, Dĩ An 07 phút."
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613125" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Bình Dương" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin VIP 3" },
-                    { "name": "Ngày đăng:", "content": "Thứ 2, 19:16 19/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 7, 19:16 24/12/2022" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "mr_v.quan@yahoo.com" },
-                    { "name": "Điện thoại:", "content": "0975828781" },
-                    { "name": "Zalo", "content": "0975828781" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967381081645-d2947b5aa8f41bb7fa5eab6443894658_1671277973.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967380885160-c0bc03891271ee52d7b254435c3219fd_1671277973.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967380463665-2f19d7b7e5a02463d6b954c5bcea6fa7_1671277974.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967380030335-0ec5b60cbf5ecbfb897e29b1ba425068_1671277975.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967380259983-78d67196b690020b8894666b3b784b29_1671277975.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967381081645-d2947b5aa8f41bb7fa5eab6443894658_1671277973.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3967380885160-c0bc03891271ee52d7b254435c3219fd_1671277973.jpg"
-            ],
-            "header": {
-                "title": "Cho thuê căn hộ giá rẻ 2PN, 2WC tại khu tập thể A9, đường Bùi Ngọc Dương - Thanh Nhàn - Quận Hai Bà Trưng",
-                "star": "2",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận Hai Bà Trưng",
-                    "classType": "Cho thuê căn hộ Quận Hai Bà Trưng"
-                },
-                "address": "Địa chỉ: Khu tập thể A9 Bùi Ngọc Dương, Phường Thanh Nhàn, Quận Hai Bà Trưng, Hà Nội",
-                "attributes": {
-                    "price": "6.5 triệu/tháng",
-                    "acreage": "75m2",
-                    "published": "Hôm nay",
-                    "hashtag": "613011"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Chính chủ cho thuê căn hộ chung cư tại khu tập thể A9, đường Bùi Ngọc Dương - Thanh Nhàn - Quận Hai Bà Trưng - Hà Nội",
-                    "- Thiết kế: 2PN, 2WC, 1 Phòng bếp, 1 phòng ăn",
-                    "- Diện tích: 75m2",
-                    "- Nhà trống (có tủ đồ), không gian thoáng mát, rộng rãi, sàn lát gỗ, cửa sổ lớn.",
-                    "- Khu an ninh, yên tĩnh, người dân văn minh, lịch sự",
-                    "- Gần chợ, cửa hàng tiện lợi, ngân hàng, trường học, siêu thị,...",
-                    "- Tối đa 4 người ( Ưu tiên gia đình)",
-                    "Giá:",
-                    "- Giá thuê: 7 triệu/tháng",
-                    "- Điện nước: Tính theo giá nhà nước",
-                    "Khách thuê có nhu cầu vui lòng liên hệ SĐT: 0911466068 (Chị Điệp) KHÔNG TIẾP MÔI GIỚI",
-                    " ",
-                    " ",
-                    " "
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613011" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hà Nội" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin VIP 3" },
-                    { "name": "Ngày đăng:", "content": "Thứ 2, 10:05 19/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 10:05 26/12/2022" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Hồng Diệp" },
-                    { "name": "Điện thoại:", "content": "0911466068" },
-                    { "name": "Zalo", "content": "0911466068" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257559262-90dec0386c77725a0027880c338a2b44_1671778355.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250965694-eb31d4328c98e508b2c9c0a29543b1e7_1671778349.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250996251-9e3c95761fecfb91df11e3a4f2cfac04_1671778350.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250862333-c7150054ddd790b1a8cc5b39d5228f4f_1671778349.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250819773-4038ab68da8a9dcf14e139f2872ac65d_1671778348.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250916776-03898a838ae7ba2aa360dfc7cdf5dd86_1671778349.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966251040494-276163e0f2f9aea85c15d01ba4e3fab8_1671778350.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966251178099-3902f7231f5629d3ef30ff9cdd7a5e87_1671778350.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257532357-baf9a6a45f60c879533033126f3c7300_1671778354.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257536101-19f1ea11a07d59cdf37cc1542d6dae80_1671778354.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257541737-c223447b38ca57fed496f714710d24ef_1671778354.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257552690-d844e228f4629e56c62e77e3bc32473b_1671778354.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257556907-20bc80dfbb6745556a61cea6de9b3201_1671778355.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966257559262-90dec0386c77725a0027880c338a2b44_1671778355.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3966250965694-eb31d4328c98e508b2c9c0a29543b1e7_1671778349.jpg"
-            ],
-            "header": {
-                "title": "Căn Hộ Mini Full Nội Thất Tân Sơn Nhì Tân Phú",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận Tân Phú",
-                    "classType": "Cho thuê căn hộ mini Quận Tân Phú"
-                },
-                "address": "Địa chỉ: Đường Tân Sơn Nhì, Phường Tân Sơn Nhì, Quận Tân Phú, Hồ Chí Minh",
-                "attributes": {
-                    "price": "3.7 triệu/tháng",
-                    "acreage": "30m2",
-                    "published": "8 phút trước",
-                    "hashtag": "613456"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Giờ tự do, không chung chủ.",
-                    "Có thang máy, máy giặt sử dụng thả ga.",
-                    "Phòng mới, sạch sẽ, thoáng mát.",
-                    "Full nội thất :",
-                    "* Nệm",
-                    "* Tủ lạnh",
-                    "* Tủ đồ",
-                    "* Bàn ghế",
-                    "* Máy nóng lạnh",
-                    "* Điều hoà",
-                    "* Wifi……",
-                    "Kệ bếp bố trí tiện lợi cho việc nấu ăn.",
-                    "Nhà vệ sinh riêng biệt trong phòng.",
-                    "Khu giặt giũ rộng rãi thoáng mát, bố trí máy giặt sẵn.",
-                    "Đội ngũ quản lý nhiệt tình, xử lý sự cố 24/7",
-                    "Vệ sinh thường xuyên sảnh chung",
-                    "Có bảo vệ 24/24 trông xe không cần lo nghỉ",
-                    "Ra vào bằng khoá vân tay và có chuông báo trộm",
-                    "…….. và còn rất nhiều tiện ích khác.",
-                    "CHỈ CẦN DỌN VÀO LÀ Ở. KHÔNG CẦN SUY NGHĨ VỀ NỘI THẤT"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613456" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:53 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:53 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Trường Giang" },
-                    { "name": "Điện thoại:", "content": "0366372108" },
-                    { "name": "Zalo", "content": "0366372108" },
                     {
-                        "name": "Facebook",
-                        "content": "https://www.facebook.com/TruongGiang0366372108/"
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 3, 20:40 09/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Chủ Nhật, 20:40 14/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Nguyễn Hoàng Nhân"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0937475715"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0937475715"
                     }
                 ]
             }
         },
         {
             "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727592258-2ebff3eef0339498fe073645f9708eaa_1652843230.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727588752-d7e385463297b8bd6e3668d014896b50_1652843229.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727570375-2e9fd8a47c8d4efb8a368f28452e60d9_1652843228.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727572524-ebcd3f4a6ee0ebb363c79312cf19388f_1652843228.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727579872-98d4e25302b33639ccf68e8593e80da2_1652843228.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727592258-2ebff3eef0339498fe073645f9708eaa_1652843230.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/05/18/z3417727588752-d7e385463297b8bd6e3668d014896b50_1652843229.jpg"
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/1ee78d98cad50f8b56c413_1660047171.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/701c0a5f4d12884cd10310_1660047174.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/4cb416c8518594dbcd9412_1660047171.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/90a971ea36a7f3f9aab611_1660047173.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/c595a6d6e19b24c57d8a9_1660047175.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/1ee78d98cad50f8b56c413_1660047171.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/09/701c0a5f4d12884cd10310_1660047174.jpg"
             ],
             "header": {
-                "title": "Chính chủ cho thuê căn hộ mini ban công cửa sổ lớn Quận 1",
+                "title": "Cho thuê Căn hộ view sông SG nằm trong khu biệt thự Bình Lợi",
+                "star": "2",
                 "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 1",
-                    "classType": "Cho thuê căn hộ mini Quận 1"
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận Bình Thạnh",
+                    "classType": "Cho thuê căn hộ Quận Bình Thạnh"
                 },
-                "address": "Địa chỉ: Đường Lê Lai, Phường Bến Thành, Quận 1, Hồ Chí Minh",
+                "address": "Địa chỉ: Đường Bình Lợi, Phường 13, Quận Bình Thạnh, Hồ Chí Minh",
                 "attributes": {
-                    "price": "5 triệu/tháng",
-                    "acreage": "30m2",
-                    "published": "13 phút trước",
-                    "hashtag": "600950"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "An ninh tốt",
-                    "Bảo vệ 24/24",
-                    "Giờ giấc tự do",
-                    "Không Giới Hạn Người ở",
-                    "Được Nuôi Thú cưng",
-                    "Phòng thiết kế độc đáo tiện lợi",
-                    "Bàn bếp + balabol thuận tiện cho việc nấu ăn ngay trong phòng",
-                    "WC riêng biệt mỗi phòng",
-                    "Tủ đồ cao rộng để đồ thả ga",
-                    "Máy lạnh mới tinh",
-                    "Tủ lạnh 2 cánh mới tới 99.99%",
-                    "Sofa lớn",
-                    "Bàn trà bàn ăn",
-                    "………."
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#600950" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:48 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:48 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Trường Giang" },
-                    { "name": "Điện thoại:", "content": "0366372108" },
-                    { "name": "Zalo", "content": "0366372108" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242844809-505848c539db82be72dbcc948328d349_1671778024.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242825754-a35cd416d78d9b694d8f595936830547_1671778023.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242835027-1280c298752ee3f7e52cfd0e879719b3_1671778024.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242821953-0c45819b9a0673ca9ed0080625fab4f1_1671778023.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242837351-3fdb52437e16d32c09a2e602d4289183_1671778024.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242844809-505848c539db82be72dbcc948328d349_1671778024.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3974242825754-a35cd416d78d9b694d8f595936830547_1671778023.jpg"
-            ],
-            "header": {
-                "title": "Căn hộ mini gác lững Dương Quảng Hàm không chung chủ giờ tự do",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận Gò Vấp",
-                    "classType": "Cho thuê căn hộ mini Quận Gò Vấp"
-                },
-                "address": "Địa chỉ: Đường Dương Quảng Hàm, Phường 5, Quận Gò Vấp, Hồ Chí Minh",
-                "attributes": {
-                    "price": "3.8 triệu/tháng",
-                    "acreage": "25m2",
-                    "published": "14 phút trước",
-                    "hashtag": "613455"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Đằng nào cũng phải thuê, thuê sớm thì tốt hơn.",
-                    "Hôm nay Em Giang Xin giới thiệu tới các bạn phòng trọ khu vực GÒ VẤP.",
-                    "Thuận tiện di chuyển qua Bình Thạnh - Sân Bay Tân Sơn Nhất",
-                    "Gần các trường học như:",
-                    "️ Đại Học Văn Lang",
-                    "️ Đại Học Coing Nghiệp",
-                    "️ Đại Học Mở",
-                    "️ Cao Đẳng Việt Mỹ",
-                    "️ Cai Đẳng NOVA",
-                    "…..",
-                    "️GIÁ PHÒNG chỉ từ 4.000.000/phòng",
-                    "Phòng chỉ 4.000.000 nhưng đã bao gôm điều hòa lắp sẵn sử dụng thoải mái",
-                    "Kệ bếp thiết sẵn tiện lợi cho diện tích phòng và sinh hoạt",
-                    "Có thêm tủ lạnh 2 ngăn cho các bạn thoải mái nấu ăn và bảo quản",
-                    "Cầu thang hành lang rộng 2m thoải mái di chuyển đi lại",
-                    "Hầm xe rộng có quản lý 24/24",
-                    "ĐẶC BIỆT GIÁ PHÒNG SẺ ĐƯỢC HỖ TRỢ THÊM NHÉ MỌI NGƯỜI",
-                    "Liên Hệ EM GIANG NGAY để nhận thêm thật nhiêu ưu đãi và nhận phòng ngay kẻo hết nhé"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613455" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:47 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:47 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Trường Giang" },
-                    { "name": "Điện thoại:", "content": "0366372108" },
-                    { "name": "Zalo", "content": "0366372108" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413526437-a2cee735b8ffe2b239ddc71810ea705a_1671777808.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413489242-77239b9cb8a1d9726031669a23d11c22_1671777803.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413461469-681734114c02cc685be4f3c0460ce866_1671777807.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413475255-d3c24d8925aed326be968c9734f711d8_1671777807.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413489242-77239b9cb8a1d9726031669a23d11c22_1671777807.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413504971-baca062f54ae88101f4c20537f3d31bd_1671777808.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413513436-6a8666e7a38b6503ce47f84c8800f63f_1671777808.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413526437-a2cee735b8ffe2b239ddc71810ea705a_1671777808.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3979413489242-77239b9cb8a1d9726031669a23d11c22_1671777803.jpg"
-            ],
-            "header": {
-                "title": "Căn hộ sân vườn 60m2 full nội thất ngay công viên Lê Thị Riêng",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 10",
-                    "classType": "Cho thuê căn hộ mini Quận 10"
-                },
-                "address": "Địa chỉ: Đường Chấn Hưng, Phường 6, Quận 10, Hồ Chí Minh",
-                "attributes": {
-                    "price": "7.5 triệu/tháng",
-                    "acreage": "60m2",
-                    "published": "17 phút trước",
-                    "hashtag": "613453"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Đã bao giờ bạn nghỉ rằng mình có nhà riêng ở TP HCM chưa",
-                    "Đằng nào cũng phải thuê, thuê sớm về ĂN TẾT thì tốt hơn.",
-                    "Hôm nay Em Giang Xin giới thiệu tới các bạn Căn hộ ban công sân vườn khu vực TÂN BÌNH GIÁP BÊN QUẬN 10.",
-                    "Thuận tiện di chuyển qua Sân Bay - Q10 - Q11 - Q.Tân Phú - Q5 …",
-                    "Ngay Công Viên Lê Thị Riêng",
-                    "Gần các trường học như:",
-                    "️ Đại Học Bách Khoa",
-                    "️ Đại Học Y Phạm Ngọc Thạch",
-                    "️ Đại Học Kinh Tế",
-                    "….",
-                    "️GIÁ PHÒNG chỉ 7.000.000",
-                    "Ban công lớn trồng rau và cây xanh đẹp mắt",
-                    "Sàn nhà lót gỗ siêu đẹp",
-                    "Phòng đã bao gôm điều hòa lắp sẵn sử dụng thoải mái",
-                    "Kệ bếp thiết sẵn tiện lợi cho diện tích phòng và sinh hoạt",
-                    "Có thêm tủ lạnh 2 ngăn 400l cho các bạn thoải mái nấu ăn và bảo quản",
-                    "Cầu thang hành lang rộng thoải mái di chuyển đi lại",
-                    "Nội thất có sẵn",
-                    "( Bàn trang điểm, giường nệm, chăn gra gối đầy đủ, kệ giày dép, tủ đồ gỗ cao cấp, bàn ghế ăn ......)",
-                    "Máy giặt riêng",
-                    "Hầm xe rộng có quản lý 24/24",
-                    "ĐẶC BIỆT GIÁ PHÒNG SẺ ĐƯỢC HỖ TRỢ THÊM NHÉ MỌI NGƯỜI",
-                    "Liên Hệ EM GIANG NGAY để nhận thêm thật nhiêu ưu đãi và nhận phòng ngay kẻo hết nhé"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613453" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:44 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:44 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Trường Giang" },
-                    { "name": "Điện thoại:", "content": "0366372108" },
-                    { "name": "Zalo", "content": "0366372108" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/07f1b49f-62df-449f-b944-01733f5bc090_1671777757.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/b2612d56-99a8-4888-bf90-ae065c7d5856_1671777752.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/0e468dbd-5865-4022-8ea4-6dee7c83e59b_1671777753.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/cf4a95d4-fb52-484d-a3f7-c6160afa638b_1671777754.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/e8d8c39f-ff8a-4c74-8279-6af2e8830a61_1671777755.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/b705a2ba-1b13-4641-870a-163db69d128c_1671777757.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/07f1b49f-62df-449f-b944-01733f5bc090_1671777757.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/b2612d56-99a8-4888-bf90-ae065c7d5856_1671777752.jpg"
-            ],
-            "header": {
-                "title": "Studio 40m2 tại Phan Huy Ích Gò Vấp",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Gò Vấp",
-                    "classType": "Cho thuê căn hộ dịch vụ Quận Gò Vấp"
-                },
-                "address": "Địa chỉ: Đường Phan Huy Ích, Phường 12, Quận Gò Vấp, Hồ Chí Minh",
-                "attributes": {
-                    "price": "4.6 triệu/tháng",
-                    "acreage": "40m2",
-                    "published": "18 phút trước",
-                    "hashtag": "613452"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "PHAN HUY ÍCH - F15 - TÂN BÌNH",
-                    "Studio 40ᴍ2 Sᴀɴɢ - Xɪ̣ɴ - Mɪɴ tại Phan Huy Ích",
-                    "- Đᴀ̂̀ʏ đᴜ̉ ᴛɪᴇ̣̂ɴ ɴɢʜɪ",
-                    "- Hᴏᴀ̀ɴ ᴛᴏᴀ̀ɴ ᴍᴏ̛́ɪ ɢɪᴀ́ ʀᴀ̂́ᴛ sɪɴʜ ᴠɪᴇ̂ɴɴ",
-                    "- Đᴀ̂̀ʏ đᴜ̉ ᴛɪᴇ̣̂ɴ ɴɢʜɪ, ᴛʜᴏᴀ́ɴɢ ᴍᴀ́ᴛ.",
-                    "- Hᴀ̂̀ᴍ xᴇ ʀᴏ̣̂ɴɢ ʀᴀ̃ɪ xᴇ ʀᴀ ᴠᴀ̀ᴏ ᴛʜᴏᴀ̉ɪ ᴍᴀ́ɪ",
-                    "- Bᴀ̉ᴏ ᴠᴇ̣̂ 24/7 ɢɪᴏ̛̀ ɢɪᴀ̂́ᴄ ᴛᴜ̛̣ ᴅᴏ",
-                    "- Rᴀ ᴠᴀ̀ᴏ ʙᴀ̆̀ɴɢ ᴛʜᴇ̉ ᴛᴜ̛̀ ᴠᴀ̂ɴ ᴛᴀʏ",
-                    "HỖ TRỢ CỌCCCCC",
-                    "Liên hệ ngay :0913.070.351 để được hỗ trợ sớm nhất"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613452" },
-                    {
-                        "name": "Khu vực",
-                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
-                    },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:43 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:43 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Phương Châm" },
-                    { "name": "Điện thoại:", "content": "0913070351" },
-                    { "name": "Zalo", "content": "0913070351" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/676ed1bc-4665-450d-a6f3-a9ac6cb44078_1671777425.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/12afb9ba-3629-4d0d-a454-6173d0f0ba49_1671777417.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/fde68861-cf0d-4b1d-8d43-caaed4cd275a_1671777417.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/fe37c336-dd36-43f1-9f85-f04f9caf6d7c_1671777419.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/0f12dab4-ac46-4c99-98d8-d2d6434b1b04_1671777419.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/9f4e801b-27e9-4563-bf3f-b24220deb958_1671777420.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/94c6ea0f-d4a6-46c7-9688-e17705bf84f2_1671777422.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/fcf431f5-093d-4f2e-a243-d8e0c56bbf12_1671777423.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/195b5dd3-cead-496c-92d5-7d69c623ba13_1671777423.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/676ed1bc-4665-450d-a6f3-a9ac6cb44078_1671777425.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/12afb9ba-3629-4d0d-a454-6173d0f0ba49_1671777417.jpg"
-            ],
-            "header": {
-                "title": "Nhà Thang máy - Bếp riêng - Không gian sân thượng riêng rộng 70m2",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận 10",
-                    "classType": "Cho thuê căn hộ dịch vụ Quận 10"
-                },
-                "address": "Địa chỉ: Tô Hiến Thành, Phường 15, Quận 10, Hồ Chí Minh",
-                "attributes": {
-                    "price": "10 triệu/tháng",
-                    "acreage": "70m2",
-                    "published": "23 phút trước",
-                    "hashtag": "613451"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "1 Phòng ngủ riêng bếp riêng có luôn cả sân thượng tại Quận 10 ?",
-                    "Địa chỉ: Tô Hiến Thành, Quận 10",
-                    "- Full nội thất, máy giặt riêng",
-                    "- Có rất nhiều không gian sinh hoạt, bếp riêng có luôn cả sân thượng riêng",
-                    "- Có thang máy",
-                    "- Khu vực an ninh, Ra vào vân tay",
-                    "- Mặt tiền đường Tô Hiến Thành cách Big C 50m, ngay đường Sư Vạn Hạnh, Thành Thái",
-                    "Call/Zalo (Minh Tân) để được hỗ trợ tìm phòng và xem phòng",
-                    "Hifriendz Hỗ Trợ Cọc"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613451" },
-                    {
-                        "name": "Khu vực",
-                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
-                    },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:38 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:38 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Võ Minh Tân" },
-                    { "name": "Điện thoại:", "content": "0912856716" },
-                    { "name": "Zalo", "content": "0912856716" },
-                    {
-                        "name": "Facebook",
-                        "content": "https://www.facebook.com/minta1910/"
-                    }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567636458-97b1b4219803c3d372c7ca204f1b776b_1671264211.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567640901-6b3238cf380162598e85a04be1859c2f_1671264180.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567636458-97b1b4219803c3d372c7ca204f1b776b_1671264191.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567631336-e5625747a9cc2f0dbc728aaabc70eb98_1671264203.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567636458-97b1b4219803c3d372c7ca204f1b776b_1671264205.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567636458-97b1b4219803c3d372c7ca204f1b776b_1671264211.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/17/z3948567640901-6b3238cf380162598e85a04be1859c2f_1671264180.jpg"
-            ],
-            "header": {
-                "title": "chính chủ cho thuê căn hộ mới giá ưu đãi",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 10",
-                    "classType": "Cho thuê căn hộ mini Quận 10"
-                },
-                "address": "Địa chỉ: 525/11 Đường Sư Vạn Hạnh, Phường 12, Quận 10, Hồ Chí Minh",
-                "attributes": {
-                    "price": "4 triệu/tháng",
-                    "acreage": "16m2",
-                    "published": "1 giờ trước",
-                    "hashtag": "612981"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "gần trường đại học y khoa phạm ngọc thạch bệnh viên 115",
-                    "thuận tiện đi lại. căn hộ có thang máy bảo vệ 24/24, nội thất cơ bản máy lạnh , nệm , máy nóng lanh",
-                    "liên hệ quản lý xem phòng 0386589501"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#612981" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 13:01 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 15:04 16/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "nguyễn tuấn anh" },
-                    { "name": "Điện thoại:", "content": "0386589501" },
-                    { "name": "Zalo", "content": "0386589501" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/b39929c4-3bc3-4584-83f9-7eb71da4b181_1671431580.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/9199fec6-fbe3-437e-914a-c776cf7fc704_1671431571.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/de9db500-0517-4ef6-9a71-6243fbdb40aa_1671431571.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/a30f7ece-c384-4d05-838a-9f1d9f723eeb_1671431573.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/b937781d-79cd-4a41-938c-e8c4a9151750_1671431573.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/3859d245-06f7-4b63-bd17-7c83f691715e_1671431575.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/a6d5fe92-28e3-4f99-baf3-83b6e690d030_1671431575.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/5ca3a1e1-2e2f-453a-ae49-f841217600f8_1671431577.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/db7673e2-a9b7-44ab-90f5-07ab7f59bb80_1671431578.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/ddb1a881-adf5-4cba-ad3a-eb47efe8165c_1671431580.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/b39929c4-3bc3-4584-83f9-7eb71da4b181_1671431580.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/9199fec6-fbe3-437e-914a-c776cf7fc704_1671431571.jpg"
-            ],
-            "header": {
-                "title": "Căn hộ duplex full nội thất giá sinh viên nằm ngay Âu Cơ",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 11",
-                    "classType": "Cho thuê căn hộ Quận 11"
-                },
-                "address": "Địa chỉ: Lạc Long Quân, Phường 3, Quận 11, Hồ Chí Minh",
-                "attributes": {
-                    "price": "4.7 triệu/tháng",
-                    "acreage": "30m2",
-                    "published": "2 giờ trước",
-                    "hashtag": "613103"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "️Trống lại căn hộ full nội thất - cửa sổ giá chỉ từ 4tr5",
-                    "⭐️Căn hộ full nội thất - cửa sổ trời- hầm xe - bảo vệ 24/7 - rộng 30-40m2 - nằm ngay Âu Cơ - Lạc Long Quân",
-                    "Địa chỉ: Lạc Long Quân, P.3, Q.11",
-                    "Vị trí:",
-                    "Thuận lợi cho việc di chuyển qua các quận 11- 10- Tân Bình - Tân Phú",
-                    "Gần các khu chợ - cửa hàng tiện lợi",
-                    "Gần trường ĐH Bách Khoa - THPT Trần Quang Khải",
-                    "Tiện ích:",
-                    "Tòa nhà thang máy- hầm xe có bảo vệ 24/7",
-                    "Khu vực yên tĩnh - an ninh",
-                    "Không chung chủ - giờ giấc tự do- ra vào bằng vân tay",
-                    "Trang bị đầy đủ nội thất như hình",
-                    "Dạng phòng: Duplex cửa sổ",
-                    "Chính sách:",
-                    "+ Số người ở: tối đa 4 người",
-                    "+ Số xe: tối đa 3 xe"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613103" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 11:17 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 13:33 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Châu Vũ Bảo" },
-                    { "name": "Điện thoại:", "content": "0932076323" },
-                    { "name": "Zalo", "content": "0932076323" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/315089406-3483426911891129-4566219205205931316-n_1668328967.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/314889205-117996901103021-7767379130454408481-n_1668328635.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/314563911-5624491544332663-5781880802279429894-n_1668328651.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/314397091-10226040955803706-8916814330318565290-n_1668328664.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/z3812485311883-2126b9f14ae59832747a5b6d2fe128e2_1668328675.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/315089406-3483426911891129-4566219205205931316-n_1668328967.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/13/314889205-117996901103021-7767379130454408481-n_1668328635.jpg"
-            ],
-            "header": {
-                "title": "Nhà mới 100% 1pn,1wc chỉ 4,5 triêu/tháng an ninh yên tĩnh có chổ để xe thoải mái rộng rãi LH: 0949051879 Ms.Linh",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 9",
-                    "classType": "Cho thuê căn hộ Quận 9"
-                },
-                "address": "Địa chỉ: Quận 9, Hồ Chí Minh",
-                "attributes": {
-                    "price": "4.5 triệu/tháng",
-                    "acreage": "35m2",
-                    "published": "3 giờ trước",
-                    "hashtag": "610542"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Nhà mới 100%",
-                    "Với đầy đủ tiện nghi : hồ bơi, khu vui chơi trẻ em, sân tập cho người lớn tuổi , cong viên tản bộ rộng lớn, khu tiệc nướng BBQ, siêu thị nhà hàng ,quán Caffe...vv..... ngay bên dưới căn hộ",
-                    "Quá đẳng cấp mà giá qua tốt cho căn Studio ở được 3-4 người",
-                    "LH: Ms Linh hỗ trợ xem nhà 24/7"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#610542" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 10:35 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 10:35 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Hồng Linh" },
-                    { "name": "Điện thoại:", "content": "0949051879" },
-                    { "name": "Zalo", "content": "0949051879" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/315089406-3483426911891129-4566219205205931316-n_1668605571.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/314404636-10226040956163715-5468913020619092143-n_1668605401.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/314901717-117996971103014-2919262097694589261-n-1_1668605412.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/314563911-5624491544332663-5781880802279429894-n_1668605428.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/z3886401101876-0c223668a0120498d74a464f63cbceb0_1668605525.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/z3886337052101-030ca8d60c2e33fa9fd25949cc6c9772_1668605539.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/z3886337078061-a9728ce5e7203ec80ef93316e6d4fe89_1668605556.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/315089406-3483426911891129-4566219205205931316-n_1668605571.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/11/16/314404636-10226040956163715-5468913020619092143-n_1668605401.jpg"
-            ],
-            "header": {
-                "title": "Nhà mới 100%, 2pn 2wc 5 triệu/ tháng, sạch sẽ, an ninh cư dân văn minh tiện ích đầy đủ",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 9",
-                    "classType": "Cho thuê căn hộ Quận 9"
-                },
-                "address": "Địa chỉ: Quận 9, Hồ Chí Minh",
-                "attributes": {
-                    "price": "5 triệu/tháng",
+                    "price": "8.8 triệu/tháng",
                     "acreage": "50m2",
-                    "published": "3 giờ trước",
-                    "hashtag": "610745"
+                    "published": "Hôm nay",
+                    "hashtag": "605643"
                 }
             },
             "mainContent": {
                 "header": "Thông tin mô tả",
                 "content": [
-                    "+ Căn 2pn 59m2 thích hợp ở được đại gia đình hoặc 4-5 bạn ở chung, với đầy đủ tiện ích, như nhà hàng, siêu thị, quán Caffe, công viên rộng lớn ngay bên dưới",
-                    "+ Khu vui chơi trẻ em rộng lớn, hồ bơi, khu tập thể dục cho người lớn tuổi, khu tiệc nướng BBQ, sân bóng rổ, đá banh, quần vợt miễn phí ngay bên dưới,",
-                    "+ khu để xe rộng rãi an toàn có bảo vệ 24/7"
+                    "CĂN HỘ NẰM TRONG KHU BIỆT THỰ BÌNH LỢI GIÁ CỰC HẤP DẪN",
+                    "Vị trí: Binh Lợi, Phường 13, Bình Thạnh",
+                    "Căn hộ view sông đón gió trời cực kỳ thoáng mát",
+                    "Mới Xây 100%",
+                    "Diện tích từ 30-60m2",
+                    "Có hầm xe rộng",
+                    "Thang máy hiện đại",
+                    "View sông Sài Gòn cực chill",
+                    "Giá hấp dẫn cho một căn hộ khu biệt thự chỉ từ 8tr8, 9tr3, 9tr8, 10tr, 10tr5, 11tr"
                 ]
             },
             "overview": {
                 "header": "Đặc điểm tin đăng",
                 "content": [
-                    { "name": "Mã tin:", "content": "#610745" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 10:34 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 10:34 02/01/2023" }
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605643"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 3, 19:13 09/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Chủ Nhật, 19:13 14/08/2022"
+                    }
                 ]
             },
             "contact": {
                 "header": "Thông tin liên hệ",
                 "content": [
-                    { "name": "Liên hệ:", "content": "Hồng Linh" },
-                    { "name": "Điện thoại:", "content": "0949051879" },
-                    { "name": "Zalo", "content": "0949051879" }
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Tài Megas"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0862421728"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0862421728"
+                    },
+                    {
+                        "name": "Facebook",
+                        "content": "https://www.facebook.com/profile.php?id=100071069504359"
+                    }
                 ]
             }
         },
         {
             "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104166643-c63fa0572b42187b8f20e48b078c2802_1670819675.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104205654-0a53616c5f233f945ecb64fa42464ed5_1670819616.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104213411-f1bac3b16af6f97efc5060197159c2b9_1670819629.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104143239-61364affefcbbce17496a6452afed123_1670819641.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104217755-f8ae6d1918ae6a679118041651a87902_1670819657.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104166643-c63fa0572b42187b8f20e48b078c2802_1670819675.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/12/z3953104205654-0a53616c5f233f945ecb64fa42464ed5_1670819616.jpg"
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/a829d270-891e-4f03-bf14-97787ff3badf_1659884439.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/31253ee6-b23c-462a-a43b-b0db7f14f413_1659884438.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/4787b77c-ba34-4093-aead-2b4377d056e7_1659884438.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/cf952df8-dbea-4f43-a1e1-790df5fa98a3_1659884439.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/a93acb47-2ae5-415f-8bfe-4c08166e7ab9_1659884439.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/9f413464-8a4a-414b-9b0e-3ee21a218320_1659884439.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/a829d270-891e-4f03-bf14-97787ff3badf_1659884439.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/07/31253ee6-b23c-462a-a43b-b0db7f14f413_1659884438.jpg"
             ],
             "header": {
-                "title": "Chuyên căn hộ Vinhomes Grand Park",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 9",
-                    "classType": "Cho thuê căn hộ Quận 9"
-                },
-                "address": "Địa chỉ: Quận 9, Hồ Chí Minh",
-                "attributes": {
-                    "price": "4 triệu/tháng",
-                    "acreage": "47m2",
-                    "published": "3 giờ trước",
-                    "hashtag": "612510"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "+ Studio: 4triệu nhà trống",
-                    "Studio: 4.5-5 triệu bếp rèm",
-                    "Studio: 6.5 triệu full nt",
-                    "+1pn+: 5 triệu chỉ có rèm",
-                    "1pn+: 6 triệu bếp rèm",
-                    "1pn+: 5.5 triệu bếp rèm",
-                    "1pn+: 5.2 triệu bếp rèm nhỏ",
-                    "+2pn: 5 triệu nhà trống",
-                    "2pn: 5.5 triệu nhà trống",
-                    "2pn: 7.5 triệu full đồ gỗ",
-                    "+ 2pn+: 6 triệu nhà trống",
-                    "2pn+: 10triệu Full nt",
-                    "2pn+: 11 triệu full nt",
-                    "+3pn: 6,5 triệu nhà trống",
-                    "3pn: 13 triệu Full nt",
-                    "3pn: 12 triệu full nt",
-                    "Tiện ích đầy đủ",
-                    "Hồ bơi",
-                    "Sân thể thao đa chức năng"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#612510" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 10:29 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 10:29 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Hồng Linh" },
-                    { "name": "Điện thoại:", "content": "0949051879" },
-                    { "name": "Zalo", "content": "0949051879" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584441611-f2d7cf03f9357cf9b37fd39845530680_1671764311.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584432644-3d8794abef6ca9deb8954ee7f5b53b4f_1671764310.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584441511-65b8d37ed5e395a880954538deb7b324_1671764310.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584441530-c5fe5099ab78c87cb51ce0ddeff3d9f4_1671764311.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584441605-8484045a86935608db2143b32808831a_1671764311.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584441611-f2d7cf03f9357cf9b37fd39845530680_1671764311.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981584432644-3d8794abef6ca9deb8954ee7f5b53b4f_1671764310.jpg"
-            ],
-            "header": {
-                "title": "Cho thuê CHDV đường Bình Giã, Quận Tân Bình.",
+                "title": "CHDV 1PN đối diện ETOWN có bancol mát mẻ",
+                "star": "2",
                 "class": {
                     "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Tân Bình",
                     "classType": "Cho thuê căn hộ dịch vụ Quận Tân Bình"
                 },
-                "address": "Địa chỉ: Bình Giã, Phường 13, Quận Tân Bình, Hồ Chí Minh",
+                "address": "Địa chỉ: Đường Nhất Chi Mai, Phường 13, Quận Tân Bình, Hồ Chí Minh",
                 "attributes": {
-                    "price": "9.5 triệu/tháng",
-                    "acreage": "35m2",
-                    "published": "4 giờ trước",
-                    "hashtag": "613435"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Cho thuê CHDV 1 phòng ngủ đầy đủ tiện nghi tại Tân Bình.",
-                    "Phòng thoáng bancol rộng, nội thất đầy đủ...",
-                    "Vị trí: khu vực gần trung tâm, tiện đi lại, gần sân bay...",
-                    "️Chi phí:",
-                    "+ Điện 4k",
-                    "+ Nước 100k",
-                    "+ Dịch vụ 250k",
-                    "+ Xe 150k",
-                    "Giá: 9.500.000/tháng (P201).",
-                    "️Địa chỉ: Bình Giã, Phường 13, Quận Tân Bình.",
-                    "Liên hệ: 0866 920 975 (Call/Zalo) để được Phòng Đẹp tư vấn tìm phòng, dẫn đi xem - chốt phòng bạn nhé!!!!"
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613435" },
-                    {
-                        "name": "Khu vực",
-                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
-                    },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 09:58 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 09:58 02/01/2023" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "Đức Phát LAND" },
-                    { "name": "Điện thoại:", "content": "0866920975" },
-                    { "name": "Zalo", "content": "0866920975" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711461848-904203a9cc03e6c572cd41076ff23cce_1671415628.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711521031-b462a469d8ba8c181227890b52c69357_1671415610.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711473690-71fa23432b8763c072ddf837db949e78_1671415607.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711476869-6fec420759af9ccfda5305de8634ce41_1671415608.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711505182-7fe5d2e4c705cb7b8811fa69e4d208c4_1671415608.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711508480-771835ecabb390d53f3d674aa1866906_1671415609.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711510292-ce46b5c8e9ebef209f7522ff809929ef_1671415609.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711545949-44f04d765842baa207e831cc0f63ee8c_1671415610.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711548691-09dfa6767af26fd7b554efdb202f4f6c_1671415611.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3869895703115-10ca45eb218f83dcf3720f1b23c2b355_1671415407.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3869895703500-b486a32d5db94e361a5dd519c8f31ff0_1671415409.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711441614-e556081f6cae555b683645520048b8d3_1671415628.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/19/z3970711461848-904203a9cc03e6c572cd41076ff23cce_1671415628.jpg"
-            ],
-            "header": {
-                "title": "Phòng đầy đủ nội thất ngay ngã 4 Đinh Bộ Lĩnh, Bạch Đằng, ngã 4 hàng xanh rộng 30m2",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận Bình Thạnh",
-                    "classType": "Cho thuê căn hộ mini Quận Bình Thạnh"
-                },
-                "address": "Địa chỉ: 8/18 Đinh Bộ Lĩnh, Phường 24, Quận Bình Thạnh, Hồ Chí Minh",
-                "attributes": {
-                    "price": "5.5 triệu/tháng",
-                    "acreage": "30m2",
-                    "published": "4 giờ trước",
-                    "hashtag": "613082"
-                }
-            },
-            "mainContent": {
-                "header": "Thông tin mô tả",
-                "content": [
-                    "Chính chủ cho thuê phòng như hình. Có nội thất + kệ bếp, toilet trong phòng.",
-                    "Địa chỉ: 8/18 đinh bộ lĩnh, p24, bt.",
-                    "Giá từ 5.5tr/tháng.",
-                    "Ở đc tối đa 3 người.",
-                    "Giờ tự do, không chung chủ. Cửa vân tay",
-                    "Vui lòng gọi trc 30p khi xem phòng."
-                ]
-            },
-            "overview": {
-                "header": "Đặc điểm tin đăng",
-                "content": [
-                    { "name": "Mã tin:", "content": "#613082" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ mini Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ mini" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 09:57 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 5, 09:08 29/12/2022" }
-                ]
-            },
-            "contact": {
-                "header": "Thông tin liên hệ",
-                "content": [
-                    { "name": "Liên hệ:", "content": "TRIỆU MẾN" },
-                    { "name": "Điện thoại:", "content": "0896687588" },
-                    { "name": "Zalo", "content": "0896687588" }
-                ]
-            }
-        },
-        {
-            "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/309141927-2245905852252518-4617979285551635512-n_1664518080.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/305769133-2245905875585849-7554772914276255011-n_1664518078.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/305613044-2245906008919169-3451654421760212400-n_1664518078.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/306734719-2245905885585848-2815907563748388554-n_1664518078.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/307380577-2245905855585851-5244250762227922008-n_1664518078.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/307463854-2245906042252499-7647545228306163128-n_1664518079.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/307848221-2245905882252515-4490067705895330903-n_1664518079.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/309032706-2245906052252498-1712070557331942180-n_1664518080.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/309141927-2245905852252518-4617979285551635512-n_1664518080.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/09/30/305769133-2245905875585849-7554772914276255011-n_1664518078.jpg"
-            ],
-            "header": {
-                "title": "Cho thuê căn hộ dịch vụ, có Ban Công, ngay VinCom Nam Long, Trần trọng Cung, Quận 7",
-                "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận 7",
-                    "classType": "Cho thuê căn hộ dịch vụ Quận 7"
-                },
-                "address": "Địa chỉ: 56 Đường số 10, Phường Tân Thuận Đông, Quận 7, Hồ Chí Minh",
-                "attributes": {
-                    "price": "8.5 triệu/tháng",
+                    "price": "7 triệu/tháng",
                     "acreage": "40m2",
-                    "published": "4 giờ trước",
-                    "hashtag": "607977"
+                    "published": "Hôm nay",
+                    "hashtag": "605524"
                 }
             },
             "mainContent": {
                 "header": "Thông tin mô tả",
                 "content": [
-                    "CHo thuê Căn hộ dịch vụ mới xây, Có ban công, full nội thất, có bếp, cửa sổ - ban công, ngay sát bên Vincom Nam Long, khu trung tâm Quận 7, cách Phú Mỹ Hưng 3 km. Giá thuê chỉ từ 8.5 tr/tháng",
-                    "* Vị trí thuận lợi:",
-                    "- Ngay sát bên Vincom Nam Long đường Trần Trọng Cung, Đi thẳng ra Huỳnh Tấn Phát, Nguyễn Thị Thập trong 1 nốt nhạc",
-                    "- Xung quanh đều có chợ, siêu thị, quán ăn, cafe đầy đủ",
-                    "- Sân tennis, hồ bơi, phòng gym ngay sát nhà",
-                    "* Tiện ích đầy đủ",
-                    "- Phòng có đầy đủ nội thất",
-                    "- Tủ bếp trên và bếp dưới",
-                    "- máy lạnh, tủ lạnh, tivi, tủ áo quần, bàn ăn, sopha ... cao cấp",
-                    "* An ninh",
-                    "- Nhà có camera 24/24",
-                    "- Cửa khóa vân tay",
-                    "- giờ giấc tự do",
-                    "- Đặc biệt ko chung chủ",
-                    "Liên hệ: 094.564.0094 A.Tuấn chính chủ để xem nhà"
+                    "Địa chỉ: Đường Nhất Chi Mai, P13, Tân Bình",
+                    "Điện 3.5k",
+                    "Nước 100k người",
+                    "Xe 100k người",
+                    "Phí dịch vụ 50k người gồm rác wifi",
+                    "FULL NỘI THẤT"
                 ]
             },
             "overview": {
                 "header": "Đặc điểm tin đăng",
                 "content": [
-                    { "name": "Mã tin:", "content": "#607977" },
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605524"
+                    },
                     {
                         "name": "Khu vực",
                         "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
                     },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ dịch vụ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 09:29 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 4, 10:51 28/12/2022" }
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Chủ Nhật, 22:02 07/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 6, 22:02 12/08/2022"
+                    }
                 ]
             },
             "contact": {
                 "header": "Thông tin liên hệ",
                 "content": [
-                    { "name": "Liên hệ:", "content": "Nguyễn Châu Tuấn" },
-                    { "name": "Điện thoại:", "content": "0945640094" },
-                    { "name": "Zalo", "content": "0945640094" }
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Thanh Thơ"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0986411535"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0986411535"
+                    }
                 ]
             }
         },
         {
             "images": [
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152735199-e0f18a35534bd98b56078e05c73ce768_1671762294.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152733708-fb3d0426f79f3e7e9a586cf02e1c636c_1671762293.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152734743-d8e5ced29e76252f1945a9bfc43c5868_1671762294.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152732377-79b4030a7eb692cccde140d6f0a98271_1671762293.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152731952-c2f0b54a7ab12df21d841ba003b26a0c_1671762293.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152735199-e0f18a35534bd98b56078e05c73ce768_1671762294.jpg",
-                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/12/23/z3981152733708-fb3d0426f79f3e7e9a586cf02e1c636c_1671762293.jpg"
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/54fb5059-64a6-4e24-bdaf-ac27781554a2_1659723886.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/d97f01f1-c106-496e-96ec-478e80ef121f_1659723875.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/b7c86f3c-8c65-48c9-a080-917de36fba56_1659723877.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/c62cff74-2f0d-46d0-bb62-672c8a005303_1659723875.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/625a39f5-ac30-4ee3-8667-5eb3ad91f34f_1659723877.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/dbc10c4a-04b1-4938-b19a-f3db001eddcd_1659723879.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/d6468178-ef22-428e-8377-6cdeaef621e5_1659723881.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/28ce3bd4-b708-4711-bfd7-9153149a854e_1659723881.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/3575cd52-9162-4af0-a4dc-733a43396750_1659723884.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/bb30e9dc-8748-43a5-8f79-370577da3611_1659723884.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/fbe1d04e-af8e-4a51-91eb-ab18b32b09bf_1659723885.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/54fb5059-64a6-4e24-bdaf-ac27781554a2_1659723886.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/d97f01f1-c106-496e-96ec-478e80ef121f_1659723875.jpg"
             ],
             "header": {
-                "title": "CHO THUÊ CĂN HỘ 1PN NGAY CHÂN CẦU SÀI GÒN MASTERI THẢO ĐIỀN MÁY GIẶT RIÊNG",
+                "title": "Căn Hộ Duplex ban công ngay KCX , Phú Mỹ Hưng và các trường ĐH Q7",
+                "star": "2",
                 "class": {
-                    "content": "Chuyên mục: Cho thuê căn hộ Quận 2",
-                    "classType": "Cho thuê căn hộ Quận 2"
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận 7",
+                    "classType": "Cho thuê căn hộ Quận 7"
                 },
-                "address": "Địa chỉ: 8, Phường An Phú, Quận 2, Hồ Chí Minh",
+                "address": "Địa chỉ: Đường Trần Trọng Cung, Phường Tân Thuận Đông, Quận 7, Hồ Chí Minh",
                 "attributes": {
-                    "price": "5.3 triệu/tháng",
-                    "acreage": "35m2",
-                    "published": "4 giờ trước",
-                    "hashtag": "613432"
+                    "price": "5.8 triệu/tháng",
+                    "acreage": "32m2",
+                    "published": "Hôm nay",
+                    "hashtag": "605460"
                 }
             },
             "mainContent": {
                 "header": "Thông tin mô tả",
                 "content": [
-                    "CĂN HỘ NGAY MASTERI THẢO ĐIỀN CHỈ VS 5.X",
-                    "Địa chỉ : An Phú",
-                    "‼️Cách Thảo điền chưa đầy 4p",
-                    "‼️Gần Masteri Thảo điền, Vincom Mega Mall, Thảo điền pearl",
-                    "‼️Cách Cầu Sài Gòn 5p, Đại lộ Mai Chí Thọ 7p",
-                    "‼️Dễ dàng di chuyển ra xa lộ Hà Nội, Trần Não, giáp Thảo điền, Bình An",
-                    "---------------",
-                    "Ngoài ra Ly còn nhiều căn khu vực An Phú, An Khánh, Bình Trưng Tây, Bình Trưng Đông, Thạnh Mỹ Lợi với giá ưu đãi. Quan tâm inbox zalo để được hỗ trợ nha",
-                    "MEGAS HELP YOU FIND SWEET HOME",
-                    "️ CALL/ZALO/SMS 0329277264 Ms Ly để được hỗ trợ tìm và nhận phòng"
+                    "Căn hộ dịch vụ mới xây, Có ban công, full nội thất, có bếp, cửa sổ ban công, ngay sát bên Vincom Nam Long, khu trung tâm Quận 7, cách Phú Mỹ Hưng 3 km. Giá thuê chỉ từ 5.8 tr/tháng.",
+                    "1. Vị trí thuận tiện:",
+                    "- Địa chỉ : Đường Trần Trọng Cũng ngay khu dân cư Nam Long.",
+                    "- Đường rộng 2 ô tô đi được.",
+                    "- Sát bên Vincom Nam Long (đường Trần Trọng CUng).",
+                    "- Mất 5 phút để ra các trục đường lớn: Trần Trọng cung, Huỳnh Tấn Phát, Lý Phục Man, Nguyễn Thị Thập, Nguyễn Văn Linh, cầu Phú Mỹ.",
+                    "- Gần trường ĐH Tôn Đức Thắng, trường ĐH Nguyễn Tất Thành, trường trung cấp kinh tế - kỹ thuật, nhà hàng tiệc cưới Duyên Hải.",
+                    "- Tiện ích mua sắm đầy đủ, gì cũng có.",
+                    "2. Tiện ích.",
+                    "- Nội thất đầy đủ 100%, có bếp.",
+                    "- Có tủ áo quần bằng gỗ sang trọng.",
+                    "- Tivi truyền hình cáp nhiều kênh, wifi cực mạnh.",
+                    "- Máy lạnh tiết kiệm điện, mới 100%.",
+                    "- Có máy giặt, máy sấy đầy đủ.",
+                    "- Hầm để xe sạch sẽ và rộng rãi.",
+                    "- Toilet rộng rãi, sạch sẽ, sang trọng.",
+                    "3. An ninh:",
+                    "+ Nhà được giám sát bằng hệ thống camera 24/24.",
+                    "+ Nằm trong khu quân đội, các cơ quan nhà nước nên rất an ninh.",
+                    "+ Ở chung với người có trí thức, ý thức cao.",
+                    "4. Giá phòng.",
+                    "- 5,8 tr/ tháng.",
+                    "- Điện 3.5 nghìn/kwh.",
+                    "- Nước: 25 nghìn / m3",
+                    "- Phí quản lý: 150k / phòng",
+                    "- Máy giặt + sấy 100 nghìn/người.",
+                    "* Gọi ngay: 0583.165.215 (Hà Phiếu ) để xem phòng nha các bạn."
                 ]
             },
             "overview": {
                 "header": "Đặc điểm tin đăng",
                 "content": [
-                    { "name": "Mã tin:", "content": "#613432" },
-                    { "name": "Khu vực", "content": "Cho thuê căn hộ Hồ Chí Minh" },
-                    { "name": "Loại tin rao:", "content": "Cho thuê căn hộ" },
-                    { "name": "Đối tượng thuê:", "content": "Tất cả" },
-                    { "name": "Gói tin:", "content": "Tin thường" },
-                    { "name": "Ngày đăng:", "content": "Thứ 6, 09:28 23/12/2022" },
-                    { "name": "Ngày hết hạn:", "content": "Thứ 2, 09:27 02/01/2023" }
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605460"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin VIP 3"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 7, 01:25 06/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 3, 01:25 16/08/2022"
+                    }
                 ]
             },
             "contact": {
                 "header": "Thông tin liên hệ",
                 "content": [
-                    { "name": "Liên hệ:", "content": "YẾN LY" },
-                    { "name": "Điện thoại:", "content": "0329277264" },
-                    { "name": "Zalo", "content": "0329277264" }
+                    {
+                        "name": "Liên hệ:",
+                        "content": "BÙI HÀ PHIẾU"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0583165215"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0583165215"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/11_1659754120.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/1_1659754112.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/2_1659754112.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/3_1659754113.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/4_1659754114.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/5_1659754115.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/6_1659754115.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/7_1659754117.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/8_1659754117.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/9_1659754118.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/10_1659754118.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/11_1659754120.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/1_1659754112.jpg"
+            ],
+            "header": {
+                "title": "Căn Hộ Full Nội Thất Gần ĐH TDTU - RMIT - UFM",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 7",
+                    "classType": "Cho thuê căn hộ mini Quận 7"
+                },
+                "address": "Địa chỉ: Đường Nguyễn Thị Thập, Phường Tân Hưng, Quận 7, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5 triệu/tháng",
+                    "acreage": "35m2",
+                    "published": "8 phút trước",
+                    "hashtag": "605467"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "CHDV Studio ̣̂ ̂́",
+                    "Vị trí: Ngay Lotte Mart Q7",
+                    "Gần đại học TDT, Tài chính - Marketing, Big C, Vincom Trần Trọng Cung, chợ, cửa hàng tiện lợi,...",
+                    "Căn hộ full nội thất, cửa sổ, ban công thoáng",
+                    "Giờ giấc tự do, không chung chủ",
+                    "Thang máy rộng",
+                    "Internet tốc độ cao",
+                    "Camera an ninh",
+                    "Giá công khai các dạng:",
+                    "Dạng phòng Studio Full NT: 4tr - 8tr",
+                    "Dạng phòng Duplex Full NT: 5tr5 - 7tr5",
+                    "Dạng phòng 1PN Full NT: 6tr2 - 8tr",
+                    "---------------------------------------",
+                    "Căn hộ dịch vụ, chung cư, phòng trọ cho thuê",
+                    "Call, Imess, Zalo..."
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605467"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ mini Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ mini"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 16:51 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 3, 09:50 16/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Đặng Ngọc Hải"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0907852513"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0907852513"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/e_1655458831.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/a-copy_1655458826.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/c-copy_1655458829.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/b-copy_1655458828.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/d_1655458831.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/4_1655458826.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/e_1655458831.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/06/17/a-copy_1655458826.jpg"
+            ],
+            "header": {
+                "title": "Căn Hộ Đầy Đủ Nội Thất Cao Cấp - Thoáng Mát - Ngay Công Viên Phần Mềm Quang Trung",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận 12",
+                    "classType": "Cho thuê căn hộ dịch vụ Quận 12"
+                },
+                "address": "Địa chỉ: Đường Tô Ký, Phường Trung Mỹ Tây, Quận 12, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5 triệu/tháng",
+                    "acreage": "25m2",
+                    "published": "18 phút trước",
+                    "hashtag": "602626"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "CHO THUÊ CĂN HỘ DỊCH VỤ FULL NỘI THẤT CAO CẤP TẠI QUẬN 12",
+                    "Trung Mỹ Tây 14A, phường Trung Mỹ Tây, quận 12",
+                    "5.000.000 - 5.500.000 (studio full nội thất)",
+                    "Nội thất bao gồm: tủ lạnh, bàn ghế, giường nệm, tivi, kệ bếp tủ bếp, tủ quần áo, máy giặt riêng, máy lạnh, bếp từ đơn/đôi (tùy phòng)",
+                    "Vị trí:",
+                    "- Gần bến xe An Sương, siêu thị, khu ăn uống, gần chợ",
+                    "- Hẻm thông các đường lớn, có nhiều toà nhà sát bên",
+                    "- Khu nhân viên văn phòng, sinh viên rất yên tĩnh, thoải mái.",
+                    "Căn hộ rộng, đẹp, mới, sang trọng, thông thoáng, đầy đủ tiện nghi, có các phòng ngủ bên trọng cực thoải mái.",
+                    "Có thang máy, wifi riêng từng phòng, nước nóng lạnh",
+                    "Hầm xe có bảo vệ trông coi 24/7",
+                    "Giờ giấc tự do, chìa khóa riêng và có thẻ từ, không chung chủ.",
+                    "Chi phí khác:",
+                    "Điện: 4000đ/kwh",
+                    "Nước: 100k/người",
+                    "Xe: 100k/xe",
+                    "Phí dịch vụ: 170k/phòng",
+                    "Liên hệ Trang: 0707.142.793 (call/zalo) để được tư vấn và hỗ trợ xem phòng trực tiếp"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#602626"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 16:42 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 7, 16:42 20/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Thùy Trang"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0707142793"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0707142793"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/296348417-738372713887128-6048708028025215440-n_1660122047.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/7a1ee97ab8d47a8a23c5_1660122044.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/294866629-790603075478683-380523175494387534-n_1660122044.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/295963912-770557270752046-5464226347728935073-n_1660122045.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/296193651-5221475574614569-2647882546404923386-n_1660122046.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/296278866-619034856135108-1740782864365488821-n_1660122046.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/296348417-738372713887128-6048708028025215440-n_1660122047.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/7a1ee97ab8d47a8a23c5_1660122044.jpg"
+            ],
+            "header": {
+                "title": "CHO THUÊ CĂN HỘ Ecolife Riverside TP. QUI NHƠN",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ Thành Phố Quy Nhơn",
+                    "classType": "Cho thuê căn hộ Thành Phố Quy Nhơn"
+                },
+                "address": "Địa chỉ: Điện Biên Phủ, Phường Nhơn Phú, Thành Phố Quy Nhơn, Bình Định",
+                "attributes": {
+                    "price": "6.5 triệu/tháng",
+                    "acreage": "64m2",
+                    "published": "58 phút trước",
+                    "hashtag": "605694"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Diện tích : 64m2.",
+                    "- Gồm 2 Phòng ngủ, 2 tolet, phòng khách , phòng bếp. Hồ bơi ở đây rất rộng.",
+                    "- Nội thất hoàn thiện.",
+                    "- View thoáng. Ban công rộng rãi.",
+                    "- Tiện ích xung quanh, gần chợ, trường học mầm non tầng 1",
+                    "- Giá cho thuê: 6.500.000đ/tháng ( Bao Phí quản lý 1 năm)"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605694"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Bình Định"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin miễn phí"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 16:02 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 2, 16:02 15/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Trương Đình Tiến"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0974422927"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0974422927"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/03bc35f0-c6fa-4429-be6d-33f9375bc1e5_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/1d290d68-aeb5-44d5-b7a7-dec0522e85be_1660121326.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/8a721088-9f25-45da-8b3f-81bf11dda521_1660121326.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/5a234074-18cc-4bf3-b904-6804f00584ca_1660121326.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/d0b845d2-bff2-45b5-baf5-cb174caf3461_1660121326.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/588941a3-cacf-4ebd-b409-31b3b03d1cb4_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/63e11d8a-4ebb-4385-ac0f-0a6edc409ab1_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/9e4ce4c7-7c7e-4341-adea-1bbe1ba3745f_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/bb4b0e49-f33b-42fd-9220-a8fd71c96909_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/03bc35f0-c6fa-4429-be6d-33f9375bc1e5_1660121327.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/10/1d290d68-aeb5-44d5-b7a7-dec0522e85be_1660121326.jpg"
+            ],
+            "header": {
+                "title": "Phòng Tâng lửng Tân Bình full nội thất gia siêu rẻ",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận Tân Bình",
+                    "classType": "Cho thuê căn hộ mini Quận Tân Bình"
+                },
+                "address": "Địa chỉ: Đường Tân Hải, Phường 13, Quận Tân Bình, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5 triệu/tháng",
+                    "acreage": "35m2",
+                    "published": "1 giờ trước",
+                    "hashtag": "605693"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Thiết kế: phòng có máy lạnh, cửa sổ mở ra giếng trời, nhà vệ sinh trong phòng, thoáng mát",
+                    "Nội thất: Máy lạnh, tủ lạnh, tủ áo, giường, nệm, bàn ghế, tủ bếp có bồn rửa",
+                    "Máy giặt dùng chung và phơi đồ trên sân thượng",
+                    "Không chung chủ, giờ giấc tự do, giữ xe trong nhà",
+                    "Điện: 4000hwh",
+                    "Nước : 100/ người",
+                    "Phí dịch vụ: 150k/ phòng"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605693"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ mini Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ mini"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 15:52 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 7, 15:52 20/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Zin Tân Bình"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0396042732"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0396042732"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/25/z3592543415619-0605b3a9b59968ad554809976e2588b4_1658740699.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/25/z3592543415516-c214b26c41bdbe953b42d5e4fe9ae942_1658740699.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/25/z3592543415619-0605b3a9b59968ad554809976e2588b4_1658740699.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/07/25/z3592543415516-c214b26c41bdbe953b42d5e4fe9ae942_1658740699.jpg"
+            ],
+            "header": {
+                "title": "Cho Thuê Căn hộ Góc 59m2, 69m2, 81m2 khu Origami đại đô thị Vinhomes Grand Park Quận 9. (Các căn góc đẹp - Giá siêu tốt)",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận 9",
+                    "classType": "Cho thuê căn hộ Quận 9"
+                },
+                "address": "Địa chỉ: S7.05 Đường Nguyễn Xiển, Phường Long Thạnh Mỹ, Quận 9, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5.9 triệu/tháng",
+                    "acreage": "70m2",
+                    "published": "1 giờ trước",
+                    "hashtag": "276599"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Tôi hiện có các căn góc ở Phân Khu Origami – đại đô thị Vinhomes Grand Park Quận 9 mới nhận nhà cần cho thuê:",
+                    "+ Căn góc 59m2 – 2 Phòng Ngủ đã trang bị sẵn nội thất cơ bản gồm: Tủ bếp hoàn chỉnh được thiết kế rất đẹp, rèm cửa trang bị đủ các phòng.",
+                    "+ Căn góc 69m2 – 2 Phòng Ngủ + đã trang bị sẵn Nội thất Gồm: Tủ bếp hoàn chỉnh và rèm cửa. (hoặc căn hộ cơ bản có máy lạnh).",
+                    "+ Căn góc 81m2 – 3 Phòng Ngủ với Full nội thất cao cấp gồm: Tủ bếp hiện đại, rèm cửa, Giường, tủ áo, bàn ăn, sofa … (thiết kế riêng rất đẳng cấp).",
+                    "- Các căn hộ đều được lựa chọn kỹ khi đều là căn góc thoáng mát, View: vườn la hán Nhật, view nội khu rất đẹp với giá cho thuê cam kết siêu cạnh tranh.",
+                    "- 100% là hình thật từ tầm view, nội thất, chủ nhà mới chận chưa ai ở còn mùi sơn mới và sẵn thẻ cư dân, nhà trống giao ngay.",
+                    "- Tất cả các tiện ích: Hồ bơi, sân bóng bàn, bóng đá, quần vợt và công viên 36ha … đều miễn phí. (Có thêm xe bus điện của Vin rất đẹp và hiện đại )",
+                    "Vị Trí Thuận tiện: Gần khu công nghệ cao, Đại Học: FPT, Sư Phạm Kỹ Thuật …, sát Bên Quận 2 …",
+                    "+ Là nơi lý tưởng cho 01 gia đình, sinh viên, nhân viên văn phòng ở và làm việc …",
+                    "Giá siêu cạnh tranh: 5.9 Triệu – 7.5 Triệu – 12.5 Triêu/tháng",
+                    "Liên hệ: 0937.554.570 (A.Hoàng) ."
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#276599"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 15:44 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 4, 10:08 24/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "hoangle2706"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0937554570"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0937554570"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873407-1659710889836_1659712134.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874006-1659710890335_1659712133.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873542-1659710890073_1659712131.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873842-1659710890268_1659712131.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874469-1659710890541_1659712132.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873643-1659710890143_1659712132.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874599-1659710890606_1659712133.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874317-1659710890471_1659712133.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874150-1659710890403_1659712133.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873718-1659710890213_1659712134.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873487-1659710889971_1659712134.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710873407-1659710889836_1659712134.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/05/img-1659710874006-1659710890335_1659712133.jpg"
+            ],
+            "header": {
+                "title": "Căn hộ mini ngay Himlam bao đẹp sát lotte quận 7",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 7",
+                    "classType": "Cho thuê căn hộ mini Quận 7"
+                },
+                "address": "Địa chỉ: Đường D1, Quận 7, Hồ Chí Minh",
+                "attributes": {
+                    "price": "6.5 triệu/tháng",
+                    "acreage": "20m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "605447"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Bên mình còn hai phòng trong tòa chung cư 6 tầng ngay Himlam Q7, phòng giá 6tr500",
+                    "Phòng có sẵn máy lạnh , kệ bếp , toilet , rộng từ 20-25m2.",
+                    "Nằm ngay trung tâm q7 nên đi lại thuận tiện giao thông, gần đường lớn , siêu thị , trường học , trung tâm mua sắm chỉ mất 5p chạy xe . Dân cư đông, an ninh tốt, tiện ích quán ăn, cửa hàng...",
+                    "Để xe trong nhà an ninh, sạch sẽ, thoáng mát, rộng rãi.",
+                    "Camera, nhân viên trông coi, hỗ trợ sửa chữa lắp đặt nội thất ko mất phí",
+                    "Phòng đang trống vào ở ngay ALO trước để được xem và tìm cho mình phòng như ý .",
+                    "Call: 0777.077.612 (gọi trực tiếp hoặc nhắn zalo)",
+                    "#chothue #chothuequan7 #canhomini #himlam #chothuephong #chothuecanhomini #chungcu"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605447"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ mini Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ mini"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:27 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 2, 22:09 15/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "An An"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0777077612"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0777077612"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688778-1659773379857_1659777936.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688786-1659773379964_1659777936.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688789-1659773380041_1659777934.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688796-1659773380228_1659777934.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688791-1659773380112_1659777934.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688798-1659773380296_1659777934.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688794-1659773380182_1659777935.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688774-1659773379779_1659777935.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688763-1659773379414_1659777935.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688782-1659773379911_1659777936.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688778-1659773379857_1659777936.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659177688786-1659773379964_1659777936.jpg"
+            ],
+            "header": {
+                "title": "Căn hộ 1 phòng ngủ sát lotte full nội thất quận 7",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 7",
+                    "classType": "Cho thuê căn hộ mini Quận 7"
+                },
+                "address": "Địa chỉ: Phường Tân Quy, Quận 7, Hồ Chí Minh",
+                "attributes": {
+                    "price": "6.4 triệu/tháng",
+                    "acreage": "30m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "605488"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Đặc điểm:",
+                    "+ Phòng rất rộng từ 25m2 - 35m2",
+                    "+ PHÒNG CÓ NỘI THẤT: máy lạnh, tủ áo, bàn ăn cơm, giường, nệm, quạt, tivi, tủ lạnh,....... căn hộ mini cho không gian sống lý tưởng.",
+                    "+ Có cửa sổ thông ra trời mát mẻ cả ngày, 1 số phòng có ban công phía ngoài.",
+                    "+ Giờ giấc tự do, về lúc nào cũng được.",
+                    "+ Không chung chủ",
+                    "+ Có máy giặt",
+                    "+ Wifi mạnh, Có chổ phơi đồ rộng rãi",
+                    "+ Cửa ra vào mở bằng vân tay, nhà xe có camera chống trộm 24/24",
+                    "+ Ngay Khu Biệt Thự dân trí cao, đường trước nhà rộng 16m, gần chợ, siêu thị, trung tâm.........",
+                    "+ Xem phòng đảm bảo thích ngay",
+                    "Liên hệ: An số điện thoại, hoặc nhắn tin zaloo nhé - 0777.077.612",
+                    "#chothue",
+                    "#canhomini",
+                    "#cănhominiq7"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605488"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ mini Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ mini"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:26 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 3, 16:25 16/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "An An"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0777077612"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0777077612"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711095-1659530169709_1659778239.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711632-1659530170099_1659778237.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711556-1659530170048_1659778237.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711714-1659530170161_1659778237.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711494-1659530169997_1659778237.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711415-1659530169944_1659778238.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711040-1659530169561_1659778238.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711254-1659530169837_1659778238.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711344-1659530169895_1659778238.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711192-1659530169774_1659778239.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711095-1659530169709_1659778239.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2022/08/06/img-1659528711632-1659530170099_1659778237.jpg"
+            ],
+            "header": {
+                "title": "Căn hộ mini đầy ấp ánh sáng mới tinh sát lotte Q7",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ mini Quận 7",
+                    "classType": "Cho thuê căn hộ mini Quận 7"
+                },
+                "address": "Địa chỉ: Đường Nguyễn Thị Thập, Phường Tân Phong, Quận 7, Hồ Chí Minh",
+                "attributes": {
+                    "price": "7 triệu/tháng",
+                    "acreage": "22m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "605489"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "Mới Tinh Full Nội Thất Ngay đường Nguyễn thị thập, khu tân quy đông đi vào quận 7",
+                    "Nội thất cao cấp và đầy đủ, chỉ việc xách vali vào ở",
+                    "Không gian điểm nhấn thiết kế phong cách nhẹ nhàng sang trọng mang đến cho khách hàng sự an yên",
+                    "Nằm trong khu sầm uất, gần nhiều hàng quán, coffee, chợ, cửa hàng tiện lợi trong bán kính 500m.",
+                    "⏰Giờ giấc tự do, không chung chủ.",
+                    "Thuận tiện đi lại giữa các quận",
+                    "Liên hệ: 0777.077.612 (gọi trực tiếp hoặc nhắn tin zalo)",
+                    "#chothue #chothuequan7 #canhomini #himlam #chothuephong #chothuecanhomini #chungcu"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#605489"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ mini Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ mini"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:26 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 3, 16:30 16/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "An An"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0777077612"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0777077612"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061476-1590980066812_1590981186.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061081-1590980066620_1590981186.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061867-1590980066927_1590981185.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061672-1590980066865_1590981185.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061257-1590980066748_1590981186.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061476-1590980066812_1590981186.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2020/06/01/img-1590980061081-1590980066620_1590981186.jpg"
+            ],
+            "header": {
+                "title": "Căn hộ mới xây chưa qua sử dụng, ngay Hoàng Hoa Thám, Bình Thạnh bạn hãy người đầu tiên sở hữu, (phòng như hình 1000%)",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận Bình Thạnh",
+                    "classType": "Cho thuê căn hộ Quận Bình Thạnh"
+                },
+                "address": "Địa chỉ: Đường Hoàng Hoa Thám, Phường 7, Quận Bình Thạnh, Hồ Chí Minh",
+                "attributes": {
+                    "price": "7.5 triệu/tháng",
+                    "acreage": "40m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "303794"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "ĐỪNG VỘI BỎ QUA CĂN HỘ XINH LUNG LINH NÀY , BẠN SẼ TIẾC ĐẤY!",
+                    "Căn hộ mới xây chưa qua sử dụng, bạn hãy người đầu tiên sở hữu, (phòng như hình 1000%)",
+                    "56D Lê Trực, phường 7, quận Bình Thạnh",
+                    "- Phòng thiết kế theo phong cách hiện đại, trẻ trung",
+                    "-️ Full nội thất không thiếu thứ gì, chỉ cần xách balo vô ở",
+                    "- Ban công siêu đẹp, thoáng mát, hầm gửi xe ngay bên dưới nhà, cửa cuốn, camera an ninh, thang máy hiện đại",
+                    "- ️Nội thất gồm : giường, nệm, chăn, ra, gối, tủ áo lớn, tủ lạnh lớn, bộ bàn ghế sofa, kệ bếp, máy lạnh, máy nước nóng..",
+                    "Điện 4k/kw",
+                    "Nước 100k/ người",
+                    "wifi, giữ xe, dọn vệ sinh, hỗ trợ kĩ thuật free",
+                    "=>>>>Gọi cho mình ngay bạn nhé:",
+                    "0933598239",
+                    "(vui lòng gọi hoặc inbox trước giúp mình)"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#303794"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:16 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 7, 14:16 20/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Trần thanh hải"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0933598239"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0933598239"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914262678-e1e1c884e5db156b42184146443f535c_1617942780.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914249891-7cb9b721f4dddc8b263f8105be4b073e_1617942774.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914252175-8054a25b3d6d793752360dc7654e94da_1617942774.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914256971-c568aa022fe302378274d38f7d8a8bc3_1617942777.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914259888-b1e38f28a6d2a74f02f2dcf6c339eadf_1617942777.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914262678-e1e1c884e5db156b42184146443f535c_1617942780.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/04/09/z2424914249891-7cb9b721f4dddc8b263f8105be4b073e_1617942774.jpg"
+            ],
+            "header": {
+                "title": "Căn hộ full NT 40m2 ngay D1 Bình Thạnh",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ dịch vụ Quận Bình Thạnh",
+                    "classType": "Cho thuê căn hộ dịch vụ Quận Bình Thạnh"
+                },
+                "address": "Địa chỉ: 156 Đường D1, Phường 25, Quận Bình Thạnh, Hồ Chí Minh",
+                "attributes": {
+                    "price": "7.5 triệu/tháng",
+                    "acreage": "40m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "585449"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "️️ MỘT SIÊU PHẨM ĐỈNH CỦA CHÓP Ở D1 P.25 Q.BÌNH THẠNH ️️",
+                    "156 Nguyễn Văn Thương (A22 D1), Phường 25, Quận Bình Thạnh",
+                    "Phòng diện tích 40m2 ,nội thất siêu hiện đại",
+                    "Nhà có hầm gửi xe, cửa cuốn an ninh, có thang máy.",
+                    "Phòng tiện nghi : Giường, nệm, tủ quần áo siêu to , siêu khổng lồ, tủ lạnh, máy lạnh, bàn ăn, thảm lông, toilet riêng hiện đại.",
+                    "Vị trí thuận lợi: gần các siêu thị, trường học, bệnh viện, ô tô có thể vào tận nhà.",
+                    "View landmark 81.",
+                    "GIỜ GIẤC TỰ DO, không chung chủ.",
+                    "Chỉ tính tiền điện, nước, wifi.",
+                    "Free Máy giặt, vệ sinh, để xe free, hỗ trợ kĩ thuật free.",
+                    "Tất cả các phòng đều mới 100%, thoáng mát",
+                    "LH hải 0933598239"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#585449"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ dịch vụ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ dịch vụ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:14 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 7, 14:14 20/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Trần thanh hải"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0933598239"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0933598239"
+                    }
+                ]
+            }
+        },
+        {
+            "images": [
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/acfe5ec5-27ca-4864-80d5-045097e95b83_1639324508.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/411fcef9-6d2e-45e1-acd7-94579d55b9e5_1639324407.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/8d0ddefe-48fd-4941-8995-45fc5335a5c8_1639324506.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/847160b1-9cfd-462c-a764-f542945d6ba6_1639324401.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/6bc9d7ec-8241-454e-963a-e49a535bfcbf_1639324506.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/b2a9fec6-5f2b-4ce3-a503-8e4ae4794704_1639324404.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/ca1fbb2f-8fde-4e27-a0a7-5f74e6b8c594_1639324404.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/e731c38b-94d8-41c0-868c-c44ae29c3308_1639324405.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/52d27d98-81cc-40a3-bcfa-30d086c3a081_1639324408.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/acfe5ec5-27ca-4864-80d5-045097e95b83_1639324508.jpg",
+                "https://pt123.cdn.static123.com/images/thumbs/900x600/fit/2021/12/12/411fcef9-6d2e-45e1-acd7-94579d55b9e5_1639324407.jpg"
+            ],
+            "header": {
+                "title": "Studio ban công, full nội thất, gần ĐH Rmit- khu Phú mỹ Hưng, new 100%, giá giảm mùa dịch",
+                "class": {
+                    "content": "Chuyên mục: Cho thuê căn hộ Quận 7",
+                    "classType": "Cho thuê căn hộ Quận 7"
+                },
+                "address": "Địa chỉ: Đường Phạm Thái Bường, Phường Tân Phong, Quận 7, Hồ Chí Minh",
+                "attributes": {
+                    "price": "5 triệu/tháng",
+                    "acreage": "30m2",
+                    "published": "2 giờ trước",
+                    "hashtag": "594264"
+                }
+            },
+            "mainContent": {
+                "header": "Thông tin mô tả",
+                "content": [
+                    "️️* TOÀ NHÀ SIÊU XINH, PHÒNG SIÊU XỊN",
+                    "Add: PHÚ MỸ HƯNG - Q7",
+                    "Nội thất đầy đủ: giường, nệm, tủ quần áo, máy lạnh, máy nước nóng, tủ lạnh, kệ bếp,..",
+                    "Phòng siêu xịn mà giá hạt dẻ",
+                    "Giờ giấc tự do, thang máy, hầm giữ xe, .",
+                    "Bảo vệ 24/24",
+                    "Mọi thứ đã sẵn sàng, chỉ cần xách vali vào và ở",
+                    "Ib để được tư vấn và đặt lịch xem phòng miễn phí",
+                    "033.664.3754 gặp Quân"
+                ]
+            },
+            "overview": {
+                "header": "Đặc điểm tin đăng",
+                "content": [
+                    {
+                        "name": "Mã tin:",
+                        "content": "#594264"
+                    },
+                    {
+                        "name": "Khu vực",
+                        "content": "Cho thuê căn hộ Hồ Chí Minh"
+                    },
+                    {
+                        "name": "Loại tin rao:",
+                        "content": "Cho thuê căn hộ"
+                    },
+                    {
+                        "name": "Đối tượng thuê:",
+                        "content": "Tất cả"
+                    },
+                    {
+                        "name": "Gói tin:",
+                        "content": "Tin thường"
+                    },
+                    {
+                        "name": "Ngày đăng:",
+                        "content": "Thứ 4, 14:08 10/08/2022"
+                    },
+                    {
+                        "name": "Ngày hết hạn:",
+                        "content": "Thứ 7, 14:08 20/08/2022"
+                    }
+                ]
+            },
+            "contact": {
+                "header": "Thông tin liên hệ",
+                "content": [
+                    {
+                        "name": "Liên hệ:",
+                        "content": "Ngô Trúc Quân"
+                    },
+                    {
+                        "name": "Điện thoại:",
+                        "content": "0336643754"
+                    },
+                    {
+                        "name": "Zalo",
+                        "content": "0336643754"
+                    }
                 ]
             }
         }

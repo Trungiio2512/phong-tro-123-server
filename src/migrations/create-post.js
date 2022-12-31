@@ -19,7 +19,7 @@ module.exports = {
             description: { type: Sequelize.TEXT },
             userId: { type: Sequelize.STRING },
             overviewId: { type: Sequelize.STRING },
-            imageId: { type: Sequelize.STRING },
+            imagesId: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: "TIMESTAMP",

@@ -1,6 +1,7 @@
 import db from "../models";
 import bcrypt from "bcryptjs";
 import { v4 } from "uuid";
+import { Op } from "sequelize";
 require("dotenv").config();
 import chothuecanho from "../../data/chothuecanho.json";
 import chothuematbang from "../../data/chothuematbang.json";
@@ -9,74 +10,120 @@ import nhachothue from "../../data/nhachothue.json";
 import generateCode from "../untils/generateCode";
 const salt = bcrypt.genSaltSync(10);
 const hashPassword = (pass) => bcrypt.hashSync(pass, salt);
-const dataBody = nhachothue.body;
+const dataBody = [
+    {
+        body: chothuephongtro.body,
+        code: "CTPT",
+    },
+    {
+        body: chothuematbang.body,
+        code: "CTMB",
+    },
+    {
+        body: chothuecanho.body,
+        code: "CTCH",
+    },
+    {
+        body: nhachothue.body,
+        code: "NCT",
+    },
+];
 
-export const insert = () => {
-    return new Promise(async (resolve, reject) => {
+export const insert = () =>
+    new Promise(async (resolve, reject) => {
         try {
-            dataBody.forEach(async (i) => {
-                const id = v4();
-                const attributesId = v4();
-                const userId = v4();
-                const overviewId = v4();
-                const imageId = v4();
-                const labelCode = generateCode(4);
-                await db.Post.create({
-                    id,
-                    title: i?.header?.title,
-                    star: i?.header?.star,
-                    labelCode,
-                    address: i?.header?.address,
-                    attributesId,
-                    categoryCode: "NCT",
-                    description: JSON.stringify(i?.mainContent?.content),
-                    userId,
-                    overviewId,
-                    imageId,
-                });
+            // const provinceCodes = [];
+            const labelCodes = [];
+            dataBody.forEach((cate) => {
+                cate.body.forEach(async (item) => {
+                    let postId = v4();
+                    let labelCode = generateCode(item?.header?.class?.classType).trim();
+                    labelCodes?.every((item) => item?.code !== labelCode) &&
+                        labelCodes.push({
+                            code: labelCode,
+                            value: item?.header?.class?.classType?.trim(),
+                        });
+                    // let provinceCode = generateCode(
+                    //     item?.header?.address?.split(",")?.slice(-1)[0],
+                    // ).trim();
+                    // provinceCodes?.every((item) => item?.code !== provinceCode) &&
+                    //     provinceCodes.push({
+                    //         code: provinceCode,
+                    //         value: item?.header?.address?.split(",")?.slice(-1)[0].trim(),
+                    //     });
+                    let attributesId = v4();
+                    let userId = v4();
+                    let imagesId = v4();
+                    let overviewId = v4();
+                    let desc = JSON.stringify(item?.mainContent?.content);
 
-                await db.Attribute.create({
-                    id: attributesId,
-                    price: i?.header?.attributes?.price,
-                    acreage: i?.header?.attributes?.acreage,
-                    published: i?.header?.attributes?.published,
-                    hashtag: i?.header?.attributes?.price,
-                });
-
-                await db.ImagePost.create({
-                    id: imageId,
-                    images: JSON.stringify(i?.images),
-                });
-
-                await db.Label.create({
-                    code: labelCode,
-                    value: i?.header?.class?.classType,
-                });
-
-                await db.Overview.create({
-                    id: overviewId,
-                    code: i?.overview?.content.find((i) => i?.name == "Mã tin:")?.content,
-                    area: i?.overview?.content.find((i) => i?.name == "Khu vực")?.content,
-                    type: i?.overview?.content.find((i) => i?.name == "Loại tin rao:")?.content,
-                    target: i?.overview?.content.find((i) => i?.name == "Đối tượng thuê:")?.content,
-                    bonus: i?.overview?.content.find((i) => i?.name == "Gói tin:")?.content,
-                    created: i?.overview?.content.find((i) => i?.name == "Ngày đăng:")?.content,
-                    expried: i?.overview?.content.find((i) => i?.name == "Ngày hết hạn:")?.content,
-                });
-
-                await db.User.create({
-                    id: userId,
-                    name: i?.contact.content.find((i) => i?.name == "Liên hệ:")?.content,
-                    phone: i?.contact.content.find((i) => i?.name == "Điện thoại:")?.content,
-                    zalo: i?.contact.content.find((i) => i?.name == "Zalo")?.content,
-                    roleCode: "R2",
-                    password: hashPassword("123456"),
+                    await db.Post.create({
+                        id: postId,
+                        title: item?.header?.title,
+                        star: item?.header?.star,
+                        labelCode,
+                        address: item?.header?.address,
+                        attributesId,
+                        categoryCode: cate.code,
+                        description: desc,
+                        userId,
+                        overviewId,
+                        imagesId,
+                        // area: dataArea.find(
+                        //     (area) => area.max > currentArea && area.min <= currentArea,
+                        // )?.code,
+                        // priceCode: dataPrice.find(
+                        //     (area) => area.max > currentPrice && area.min <= currentPrice,
+                        // )?.code,
+                        // provinceCode,
+                        // priceNumber: getNumberFromStringV2(item?.header?.attributes?.price),
+                        // areaNumber: getNumberFromStringV2(item?.header?.attributes?.acreage),
+                    });
+                    await db.Attribute.create({
+                        id: attributesId,
+                        price: item?.header?.attributes?.price,
+                        acreage: item?.header?.attributes?.acreage,
+                        published: item?.header?.attributes?.published,
+                        hashtag: item?.header?.attributes?.hashtag,
+                    });
+                    await db.ImagePost.create({
+                        id: imagesId,
+                        images: JSON.stringify(item?.images),
+                    });
+                    await db.Overview.create({
+                        id: overviewId,
+                        code: item?.overview?.content.find((i) => i.name === "Mã tin:")?.content,
+                        area: item?.overview?.content.find((i) => i.name === "Khu vực")?.content,
+                        type: item?.overview?.content.find((i) => i.name === "Loại tin rao:")
+                            ?.content,
+                        target: item?.overview?.content.find((i) => i.name === "Đối tượng thuê:")
+                            ?.content,
+                        bonus: item?.overview?.content.find((i) => i.name === "Gói tin:")?.content,
+                        created: item?.overview?.content.find((i) => i.name === "Ngày đăng:")
+                            ?.content,
+                        expired: item?.overview?.content.find((i) => i.name === "Ngày hết hạn:")
+                            ?.content,
+                    });
+                    await db.User.create({
+                        id: userId,
+                        name: item?.contact?.content.find((i) => i.name === "Liên hệ:")?.content,
+                        password: hashPassword("123456"),
+                        phone: item?.contact?.content.find((i) => i.name === "Điện thoại:")
+                            ?.content,
+                        zalo: item?.contact?.content.find((i) => i.name === "Zalo")?.content,
+                    });
                 });
             });
+            // console.log(provinceCodes);
+            // provinceCodes?.forEach(async (item) => {
+            //     await db.Province.create(item);
+            // });
+            labelCodes?.forEach(async (item) => {
+                await db.Label.create(item);
+            });
 
-            resolve("ok");
+            resolve("Done.");
         } catch (error) {
             reject(error);
         }
     });
-};

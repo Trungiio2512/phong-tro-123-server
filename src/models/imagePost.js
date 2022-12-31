@@ -1,5 +1,6 @@
 "use strict";
 const { Model } = require("sequelize");
+const post = require("./post");
 module.exports = (sequelize, DataTypes) => {
     class ImagePost extends Model {
         /**
@@ -9,6 +10,7 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
+            ImagePost.hasOne(models.Post, { foreignKey: "imagesId", as: "imagesData" });
         }
     }
     ImagePost.init(

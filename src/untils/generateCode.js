@@ -1,12 +1,21 @@
-function generateCode(length) {
-    const character = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    const number = "0123456789";
-    let code = "";
-    for (let i = 0; i < length - 1; i++) {
-        code += character.charAt(Math.floor(Math.random() * character.length));
-    }
+require("dotenv").config();
 
-    return `${code}${number.charAt(Math.floor(Math.random() * number.length))}`;
-}
+const generateCode = (value) => {
+    let output = "";
+    value = value
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .split(" ")
+        .join("");
+    let merge = value + process.env.SECRET_KEY;
+    let length = merge.length;
+    // adc + phongtro123 = adcphongtro123
+    for (let i = 0; i < 3; i++) {
+        let index = i === 2 ? Math.floor(merge.length / 2 + length / 2) : Math.floor(length / 2);
+        output += merge.charAt(index);
+        length = index;
+    }
+    return `${value.charAt(2)}${output}`.toUpperCase();
+};
 
 export default generateCode;
