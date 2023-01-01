@@ -2,6 +2,7 @@ import express from "express";
 import * as controllers from "../controllers/post";
 const router = express.Router();
 
-router.get("/", controllers.getPosts);
+router.get("/all", controllers.getPosts);
+router.get("/limit", controllers.getPostsLimit);
 
 export default router;
