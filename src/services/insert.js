@@ -3,11 +3,15 @@ import bcrypt from "bcryptjs";
 import { v4 } from "uuid";
 import { Op } from "sequelize";
 require("dotenv").config();
+
 import chothuecanho from "../../data/chothuecanho.json";
 import chothuematbang from "../../data/chothuematbang.json";
 import chothuephongtro from "../../data/chothuephongtro.json";
 import nhachothue from "../../data/nhachothue.json";
 import generateCode from "../untils/generateCode";
+import { dataPrice, dataArea } from "../untils/data";
+import { getNumberInString } from "../untils/common";
+
 const salt = bcrypt.genSaltSync(10);
 const hashPassword = (pass) => bcrypt.hashSync(pass, salt);
 const dataBody = [
@@ -33,6 +37,7 @@ export const insert = () =>
     new Promise(async (resolve, reject) => {
         try {
             // const provinceCodes = [];
+            const price = [];
             const labelCodes = [];
             dataBody.forEach((cate) => {
                 cate.body.forEach(async (item) => {
@@ -43,6 +48,8 @@ export const insert = () =>
                             code: labelCode,
                             value: item?.header?.class?.classType?.trim(),
                         });
+                    const currentArea = getNumberInString(item?.header?.attributes?.acreage);
+                    const currentPrice = getNumberInString(item?.header?.attributes?.price);
                     // let provinceCode = generateCode(
                     //     item?.header?.address?.split(",")?.slice(-1)[0],
                     // ).trim();
@@ -69,12 +76,12 @@ export const insert = () =>
                         userId,
                         overviewId,
                         imagesId,
-                        // area: dataArea.find(
-                        //     (area) => area.max > currentArea && area.min <= currentArea,
-                        // )?.code,
-                        // priceCode: dataPrice.find(
-                        //     (area) => area.max > currentPrice && area.min <= currentPrice,
-                        // )?.code,
+                        areaCode: dataArea.find(
+                            (area) => area.max > currentArea && area.min <= currentArea,
+                        )?.code,
+                        priceCode: dataPrice.find(
+                            (area) => area.max > currentPrice && area.min <= currentPrice,
+                        )?.code,
                         // provinceCode,
                         // priceNumber: getNumberFromStringV2(item?.header?.attributes?.price),
                         // areaNumber: getNumberFromStringV2(item?.header?.attributes?.acreage),
@@ -129,3 +136,26 @@ export const insert = () =>
             reject(error);
         }
     });
+export const createPricesAndAreas = () => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            dataPrice.forEach(async (price, index) => {
+                await db.Price.create({
+                    order: index + 1,
+                    code: price.code,
+                    value: price.value,
+                });
+            });
+            dataArea.forEach(async (area, index) => {
+                await db.Area.create({
+                    order: index + 1,
+                    code: area.code,
+                    value: area.value,
+                });
+            });
+            resolve("ok");
+        } catch (error) {
+            reject(error);
+        }
+    });
+};

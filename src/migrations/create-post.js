@@ -16,6 +16,8 @@ module.exports = {
             address: { type: Sequelize.STRING },
             attributesId: { type: Sequelize.STRING },
             categoryCode: { type: Sequelize.STRING },
+            priceCode: { type: Sequelize.STRING },
+            areaCode: { type: Sequelize.STRING },
             description: { type: Sequelize.TEXT },
             userId: { type: Sequelize.STRING },
             overviewId: { type: Sequelize.STRING },

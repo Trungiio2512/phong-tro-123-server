@@ -3,12 +3,16 @@ import auth from "./auth";
 import insert from "./insert";
 import category from "./category";
 import post from "./post";
+import price from "./price";
+import area from "./area";
 
 const initRoutes = (app) => {
     app.use("/api/v1/auth", auth);
     app.use("/api/v1/insert", insert);
     app.use("/api/v1/category", category);
     app.use("/api/v1/post", post);
+    app.use("/api/v1/price", price);
+    app.use("/api/v1/area", area);
     app.use(notFound);
 };
 
