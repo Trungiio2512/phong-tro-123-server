@@ -2,8 +2,10 @@ import express from "express";
 import cors from "cors";
 import initRoutes from "./src/routes";
 import connection from "./config_database";
-require("dotenv").config();
+import { getNumberInString } from "./src/untils/common";
 
+require("dotenv").config();
+getNumberInString("12 đồng/tháng");
 const app = express();
 app.use(
     cors({
@@ -20,6 +22,4 @@ connection();
 
 const port = process.env.PORT || 8888;
 
-const listeners = app.listen(port, () =>
-    console.log(`Listen on ${listeners.address().port}`),
-);
+const listeners = app.listen(port, () => console.log(`Listen on ${listeners.address().port}`));

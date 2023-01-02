@@ -36,15 +36,19 @@ export const getPosts = () => {
     });
 };
 
-export const getPostsLimit = (page = 0) => {
+export const getPostsLimit = ({ page = 0, limit, ...query }) => {
     return new Promise(async (resolve, reject) => {
         try {
-            console.log(page);
+            // console.log(page);
+            const queries = {
+                offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
+                limit: +limit || +process.env.LIMIT,
+            };
             const res = await db.Post.findAndCountAll({
                 raw: true,
                 nest: true,
-                offset: +page,
-                limit: +process.env.LIMIT,
+                ...queries,
+                where: query,
                 include: [
                     {
                         model: db.ImagePost,

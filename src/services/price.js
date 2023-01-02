@@ -1,6 +1,6 @@
 import db from "../models";
 
-//GET ALL Categories
+//GET ALL prices
 
 export const getPrices = () => {
     return new Promise(async (resolve, reject) => {
