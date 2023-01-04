@@ -7,7 +7,7 @@ export const getCategories = () => {
         try {
             const response = await db.Category.findAll({
                 raw: true,
-                attributes: ["id", "code", "value"],
+                // attributes: ["id", "code", "value"],
             });
             resolve({
                 err: response ? 0 : 2,

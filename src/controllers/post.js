@@ -20,3 +20,13 @@ export const getPostsLimit = async (req, res) => {
         return internalServerError(res);
     }
 };
+
+export const getNewPosts = async (req, res) => {
+    try {
+        // const { page, priceCode, l } = req.query;
+        const response = await postServices.getNewPosts();
+        return res.status(200).json(response);
+    } catch (error) {
+        return internalServerError(res);
+    }
+};

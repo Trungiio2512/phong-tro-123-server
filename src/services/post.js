@@ -78,3 +78,37 @@ export const getPostsLimit = ({ page = 0, limit, ...query }) => {
         }
     });
 };
+
+export const getNewPosts = (query) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const res = await db.Post.findAll({
+                raw: true,
+                nest: true,
+                offset: 1,
+                order: [["createdAt", "DESC"]],
+                limit: +process.env.LIMIT,
+                include: [
+                    {
+                        model: db.ImagePost,
+                        as: "imagesData",
+                        attributes: ["images"],
+                    },
+                    {
+                        model: db.Attribute,
+                        as: "attributesData",
+                        attributes: ["price"],
+                    },
+                ],
+                attributes: ["id", "title", "star", "createdAt"],
+            });
+            resolve({
+                err: res ? 0 : 1,
+                msg: res ? "Success" : "Error",
+                data: res,
+            });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
