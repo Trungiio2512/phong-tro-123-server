@@ -5,6 +5,7 @@ import category from "./category";
 import post from "./post";
 import price from "./price";
 import area from "./area";
+import province from "./province";
 
 const initRoutes = (app) => {
     app.use("/api/v1/auth", auth);
@@ -13,6 +14,7 @@ const initRoutes = (app) => {
     app.use("/api/v1/post", post);
     app.use("/api/v1/price", price);
     app.use("/api/v1/area", area);
+    app.use("/api/v1/province", province);
     app.use(notFound);
 };
 

@@ -37,27 +37,27 @@ export const insert = () =>
     new Promise(async (resolve, reject) => {
         try {
             // const provinceCodes = [];
-            const price = [];
+            const provinceCodes = [];
             const labelCodes = [];
             dataBody.forEach((cate) => {
                 cate.body.forEach(async (item) => {
                     let postId = v4();
                     let labelCode = generateCode(item?.header?.class?.classType).trim();
+                    let provinceCode = generateCode(
+                        item?.header?.address?.split(",")?.slice(-1)[0],
+                    ).trim();
                     labelCodes?.every((item) => item?.code !== labelCode) &&
                         labelCodes.push({
                             code: labelCode,
                             value: item?.header?.class?.classType?.trim(),
                         });
+                    provinceCodes?.every((item) => item?.code !== provinceCode) &&
+                        provinceCodes.push({
+                            code: provinceCode,
+                            value: item?.header?.address?.split(",")?.slice(-1)[0].trim(),
+                        });
                     const currentArea = getNumberInString(item?.header?.attributes?.acreage);
                     const currentPrice = getNumberInString(item?.header?.attributes?.price);
-                    // let provinceCode = generateCode(
-                    //     item?.header?.address?.split(",")?.slice(-1)[0],
-                    // ).trim();
-                    // provinceCodes?.every((item) => item?.code !== provinceCode) &&
-                    //     provinceCodes.push({
-                    //         code: provinceCode,
-                    //         value: item?.header?.address?.split(",")?.slice(-1)[0].trim(),
-                    //     });
                     let attributesId = v4();
                     let userId = v4();
                     let imagesId = v4();
@@ -82,7 +82,7 @@ export const insert = () =>
                         priceCode: dataPrice.find(
                             (area) => area.max > currentPrice && area.min <= currentPrice,
                         )?.code,
-                        // provinceCode,
+                        provinceCode,
                         // priceNumber: getNumberFromStringV2(item?.header?.attributes?.price),
                         // areaNumber: getNumberFromStringV2(item?.header?.attributes?.acreage),
                     });
@@ -92,6 +92,14 @@ export const insert = () =>
                         acreage: item?.header?.attributes?.acreage,
                         published: item?.header?.attributes?.published,
                         hashtag: item?.header?.attributes?.hashtag,
+                    });
+
+                    await db.Province.findOrCreate({
+                        where: { code: provinceCode },
+                        defaults: {
+                            code: provinceCode,
+                            value: item?.header?.address?.split(",")?.slice(-1)[0].trim(),
+                        },
                     });
                     await db.ImagePost.create({
                         id: imagesId,
@@ -124,9 +132,9 @@ export const insert = () =>
                 });
             });
             // console.log(provinceCodes);
-            // provinceCodes?.forEach(async (item) => {
-            //     await db.Province.create(item);
-            // });
+            provinceCodes?.forEach(async (item) => {
+                await db.Province.create(item);
+            });
             labelCodes?.forEach(async (item) => {
                 await db.Label.create(item);
             });
