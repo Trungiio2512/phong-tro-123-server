@@ -10,7 +10,7 @@ import chothuephongtro from "../../data/chothuephongtro.json";
 import nhachothue from "../../data/nhachothue.json";
 import generateCode from "../untils/generateCode";
 import { dataPrice, dataArea } from "../untils/data";
-import { getNumberInString } from "../untils/common";
+import { getNumberInString, getNumberInStringV2 } from "../untils/common";
 
 const salt = bcrypt.genSaltSync(10);
 const hashPassword = (pass) => bcrypt.hashSync(pass, salt);
@@ -83,8 +83,8 @@ export const insert = () =>
                             (area) => area.max > currentPrice && area.min <= currentPrice,
                         )?.code,
                         provinceCode,
-                        // priceNumber: getNumberFromStringV2(item?.header?.attributes?.price),
-                        // areaNumber: getNumberFromStringV2(item?.header?.attributes?.acreage),
+                        priceNumber: getNumberInStringV2(item?.header?.attributes?.price),
+                        areaNumber: getNumberInStringV2(item?.header?.attributes?.acreage),
                     });
                     await db.Attribute.create({
                         id: attributesId,

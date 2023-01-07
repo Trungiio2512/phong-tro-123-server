@@ -23,6 +23,8 @@ module.exports = {
             userId: { type: Sequelize.STRING },
             overviewId: { type: Sequelize.STRING },
             imagesId: { type: Sequelize.STRING },
+            priceNumber: { type: Sequelize.FLOAT },
+            areaNumber: { type: Sequelize.FLOAT },
             createdAt: {
                 allowNull: false,
                 type: "TIMESTAMP",
