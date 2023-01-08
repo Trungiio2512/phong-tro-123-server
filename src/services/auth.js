@@ -8,7 +8,7 @@ const salt = bcrypt.genSaltSync(10);
 const hashPassword = (pass) => bcrypt.hashSync(pass, salt);
 
 const generateAccessToken = (data) =>
-    jwt.sign(data, process.env.JWT_ACCESS_KEY, { expiresIn: "15s" });
+    jwt.sign(data, process.env.JWT_ACCESS_KEY, { expiresIn: "15d" });
 
 const generateRefreshToken = (data) =>
     jwt.sign(data, process.env.JWT_REFRESH_KEY, { expiresIn: "30d" });
@@ -39,6 +39,7 @@ export const register = ({ name, phone, password, type }) => {
                 msg: accessToken ? "Register success" : "Phone number has been registered",
                 accessToken,
                 refreshToken,
+                data: response,
             });
         } catch (error) {
             reject(error);
@@ -70,6 +71,7 @@ export const login = ({ phone, password }) => {
                     : "Phone number is incorrect",
                 accessToken: token,
                 refreshToken,
+                data: response,
             });
         } catch (error) {
             reject(error);
