@@ -10,6 +10,11 @@ module.exports = (sequelize, DataTypes) => {
         static associate(models) {
             // define association here
             User.hasMany(models.Post, { foreignKey: "userId", as: "userData" });
+            User.belongsTo(models.Role, {
+                foreignKey: "roleCode",
+                targetKey: "code",
+                as: "role",
+            });
         }
     }
     User.init(
@@ -21,6 +26,7 @@ module.exports = (sequelize, DataTypes) => {
             zalo: DataTypes.STRING,
             fbUrl: DataTypes.STRING,
             avatar: DataTypes.BLOB,
+            refreshToken: DataTypes.STRING,
         },
         {
             sequelize,

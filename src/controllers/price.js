@@ -6,7 +6,7 @@ export const getPrices = async (req, res) => {
         const response = await priceService.getPrices();
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res);
+        return internalServerError(res, error);
         // return res.status(500).json(error);
     }
 };

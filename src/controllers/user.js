@@ -7,7 +7,7 @@ export const getCurrent = async (req, res) => {
         const response = await userService.getOne(id);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res);
+        return internalServerError(res, error);
         // return res.status(500).json(error);
     }
 };

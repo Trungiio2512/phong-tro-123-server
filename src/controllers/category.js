@@ -6,7 +6,7 @@ export const getCategories = async (req, res) => {
         const response = await categoryService.getCategories();
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res);
+        return internalServerError(res, error);
         // return res.status(500).json(error);
     }
 };

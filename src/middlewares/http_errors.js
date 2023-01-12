@@ -16,8 +16,8 @@ export const authorization = (res, err) => {
     });
 };
 
-export const internalServerError = (res) => {
-    const error = createError.InternalServerError();
+export const internalServerError = (res, err) => {
+    const error = createError.InternalServerError(err);
     return res.status(error.status).json({
         err: -1,
         msg: error.message,
@@ -26,6 +26,14 @@ export const internalServerError = (res) => {
 
 export const notFound = (req, res) => {
     const error = createError.NotFound("Router is not exists");
+    return res.status(error.status).json({
+        err: 1,
+        msg: error.message,
+    });
+};
+
+export const requestTimeout = (res, err) => {
+    const error = createError.RequestTimeout(err);
     return res.status(error.status).json({
         err: 1,
         msg: error.message,

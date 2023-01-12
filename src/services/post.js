@@ -1,5 +1,8 @@
 import db from "../models";
 import { Op } from "sequelize";
+import { v4 } from "uuid";
+import generateCode from "../untils/generateCode";
+import moment from "moment";
 export const getPosts = () => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -37,8 +40,6 @@ export const getPosts = () => {
 };
 
 export const getPostsLimit = ({ page = 0, priceNumber, areaNumber, limit, ...query }) => {
-    console.log(">> priceNumber" + priceNumber);
-    console.log(">> areaNumber" + areaNumber);
     return new Promise(async (resolve, reject) => {
         try {
             const lastQuery = { ...query };
@@ -46,6 +47,7 @@ export const getPostsLimit = ({ page = 0, priceNumber, areaNumber, limit, ...que
             const queries = {
                 offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
                 limit: +limit || +process.env.LIMIT,
+                order: [["createdAt", "DESC"]],
             };
             if (priceNumber) {
                 lastQuery.priceNumber = { [Op.between]: priceNumber };
@@ -115,6 +117,99 @@ export const getNewPosts = (query) => {
                 err: res ? 0 : 1,
                 msg: res ? "Success" : "Error",
                 data: res,
+            });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
+
+export const createNewPost = (id, body) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const currentDate = new Date();
+            const user = await db.User.findOne({ where: { id } });
+            if (user) {
+                const attributesId = v4();
+                const imagesId = v4();
+                const overviewId = v4();
+                const labelCode = generateCode(body.label);
+                const provinceCode = body.province.includes("Thành phố")
+                    ? generateCode(body.province.replace("Thành phố ", ""))
+                    : generateCode(body.province.replace("Tỉnh ", ""));
+                const hashtag = `#${Math.floor(Math.random() * Math.pow(10, 6))}`;
+                await db.Post.create({
+                    id: v4(),
+                    title: body?.title,
+                    star: 0,
+                    labelCode,
+                    address: body.address,
+                    categoryCode: body.categoryCode,
+                    description: JSON.stringify(body.description),
+                    userId: id,
+                    overviewId,
+                    imagesId,
+                    attributesId,
+                    areaCode: body.areaCode,
+                    priceCode: body.priceCode,
+                    provinceCode,
+                    priceNumber: body.priceNumber,
+                    areaNumber: body.areaNumber,
+                });
+                await db.Attribute.create({
+                    id: attributesId,
+                    price: `${
+                        +body.priceNumber >= 1
+                            ? `${body.priceNumber} triệu/tháng`
+                            : `${body.priceNumber * Math.pow(10, 6)} đồng/tháng`
+                    }`,
+                    acreage: `${body.areaNumber}m2`,
+                    published: moment(new Date()).format("DD/MM/YYYY"),
+                    hashtag,
+                });
+
+                await db.ImagePost.create({
+                    id: imagesId,
+                    images: JSON.stringify(body?.images),
+                });
+
+                await db.Overview.create({
+                    id: overviewId,
+                    code: hashtag,
+                    area: body.label,
+                    // type: body.category,
+                    target: body.target,
+                    bonus: "Tin thường",
+                    created: currentDate,
+                    expired: currentDate.setDate(currentDate.getDate() + 10),
+                });
+
+                await db.Province.findOrCreate({
+                    where: {
+                        [Op.or]: [
+                            { value: body.province.replace("Thành phố ", "") },
+                            { value: body.province.replace("Tỉnh ", "") },
+                        ],
+                    },
+                    defaults: {
+                        code: provinceCode,
+                        value: body.province.includes("Thành phố")
+                            ? body.province.replace("Thành phố ", "")
+                            : body.province.replace("Tỉnh ", ""),
+                    },
+                });
+
+                await db.Label.findOrCreate({
+                    where: { code: labelCode },
+                    defaults: {
+                        code: labelCode,
+                        value: body.label,
+                    },
+                });
+            }
+            resolve({
+                err: 0,
+                msg: "Success",
             });
         } catch (error) {
             reject(error);
