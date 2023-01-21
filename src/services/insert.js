@@ -39,13 +39,16 @@ export const insert = () =>
             // const provinceCodes = [];
             const provinceCodes = [];
             const labelCodes = [];
+            const userlist = [];
             dataBody.forEach((cate) => {
                 cate.body.forEach(async (item) => {
                     let postId = v4();
+                    let userId = v4();
                     let labelCode = generateCode(item?.header?.class?.classType).trim();
                     let provinceCode = generateCode(
                         item?.header?.address?.split(",")?.slice(-1)[0],
                     ).trim();
+
                     labelCodes?.every((item) => item?.code !== labelCode) &&
                         labelCodes.push({
                             code: labelCode,
@@ -56,10 +59,26 @@ export const insert = () =>
                             code: provinceCode,
                             value: item?.header?.address?.split(",")?.slice(-1)[0].trim(),
                         });
+
+                    userlist.every(
+                        (user) =>
+                            user?.phone !==
+                            item?.contact?.content.find((i) => i.name === "Điện thoại:")?.content,
+                    ) &&
+                        userlist.push({
+                            id: userId,
+                            name: item?.contact?.content.find((i) => i.name === "Liên hệ:")
+                                ?.content,
+                            password: hashPassword("123456"),
+                            phone: item?.contact?.content.find((i) => i.name === "Điện thoại:")
+                                ?.content,
+                            zalo: item?.contact?.content.find((i) => i.name === "Zalo")?.content,
+                            avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+                            roleCode: "R2",
+                        });
                     const currentArea = getNumberInString(item?.header?.attributes?.acreage);
                     const currentPrice = getNumberInString(item?.header?.attributes?.price);
                     let attributesId = v4();
-                    let userId = v4();
                     let imagesId = v4();
                     let overviewId = v4();
                     let desc = JSON.stringify(item?.mainContent?.content);
@@ -119,16 +138,16 @@ export const insert = () =>
                         expired: item?.overview?.content.find((i) => i.name === "Ngày hết hạn:")
                             ?.content,
                     });
-                    await db.User.create({
-                        id: userId,
-                        name: item?.contact?.content.find((i) => i.name === "Liên hệ:")?.content,
-                        password: hashPassword("123456"),
-                        phone: item?.contact?.content.find((i) => i.name === "Điện thoại:")
-                            ?.content,
-                        zalo: item?.contact?.content.find((i) => i.name === "Zalo")?.content,
-                        avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
-                        roleCode: "R2",
-                    });
+                    // await db.User.create({
+                    //     id: userId,
+                    //     name: item?.contact?.content.find((i) => i.name === "Liên hệ:")?.content,
+                    //     password: hashPassword("123456"),
+                    //     phone: item?.contact?.content.find((i) => i.name === "Điện thoại:")
+                    //         ?.content,
+                    //     zalo: item?.contact?.content.find((i) => i.name === "Zalo")?.content,
+                    //     avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+                    //     roleCode: "R2",
+                    // });
                 });
             });
             // console.log(provinceCodes);
@@ -137,6 +156,9 @@ export const insert = () =>
             });
             labelCodes?.forEach(async (item) => {
                 await db.Label.create(item);
+            });
+            userlist?.forEach(async (user) => {
+                await db.User.create(user);
             });
 
             resolve("Done.");

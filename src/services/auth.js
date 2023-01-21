@@ -43,7 +43,12 @@ export const register = ({ name, phone, password, type }) => {
                       roleCode: response[0].roleCode,
                   })
                 : null;
-
+            await db.User.update(
+                { refreshToken },
+                {
+                    where: { id: userId },
+                },
+            );
             resolve({
                 err: accessToken ? 0 : 2,
                 msg: accessToken ? "Register success" : "Phone number has been registered",
@@ -51,15 +56,6 @@ export const register = ({ name, phone, password, type }) => {
                 refreshToken,
                 // data: response,
             });
-
-            if (refreshToken) {
-                await db.User.update(
-                    { refreshToken },
-                    {
-                        where: userId,
-                    },
-                );
-            }
         } catch (error) {
             reject(error);
         }

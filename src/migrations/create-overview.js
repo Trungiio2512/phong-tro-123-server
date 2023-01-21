@@ -15,8 +15,8 @@ module.exports = {
             type: { type: Sequelize.STRING },
             target: { type: Sequelize.STRING },
             bonus: { type: Sequelize.STRING },
-            created: { type: Sequelize.DATE },
-            expried: { type: Sequelize.DATE },
+            created: { type: Sequelize.STRING },
+            expired: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: "TIMESTAMP",

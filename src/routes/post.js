@@ -11,5 +11,7 @@ router.get("/new_post", controllers.getNewPosts);
 router.use(verifyToken);
 router.use(verifyRoleCreatorOrAdmin);
 router.post("/create_post", controllers.createNewPost);
+router.get("/limit_private", controllers.getPostPrivate);
+router.put("/update_private", controllers.updatePostPrivate);
 
 export default router;
