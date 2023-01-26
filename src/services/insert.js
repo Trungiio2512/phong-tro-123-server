@@ -138,16 +138,6 @@ export const insert = () =>
                         expired: item?.overview?.content.find((i) => i.name === "Ngày hết hạn:")
                             ?.content,
                     });
-                    // await db.User.create({
-                    //     id: userId,
-                    //     name: item?.contact?.content.find((i) => i.name === "Liên hệ:")?.content,
-                    //     password: hashPassword("123456"),
-                    //     phone: item?.contact?.content.find((i) => i.name === "Điện thoại:")
-                    //         ?.content,
-                    //     zalo: item?.contact?.content.find((i) => i.name === "Zalo")?.content,
-                    //     avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
-                    //     roleCode: "R2",
-                    // });
                 });
             });
             // console.log(provinceCodes);

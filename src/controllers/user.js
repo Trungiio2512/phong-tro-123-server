@@ -11,3 +11,15 @@ export const getCurrent = async (req, res) => {
         // return res.status(500).json(error);
     }
 };
+
+export const updateUser = async (req, res) => {
+    try {
+        const { id } = req.user;
+        const response = await userService.updateUser(id, req.body);
+        return res.status(200).json(response);
+    } catch (error) {
+        console.log(error);
+        return internalServerError(res);
+        // return res.status(500).json(error);
+    }
+};

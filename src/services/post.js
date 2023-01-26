@@ -5,43 +5,7 @@ import generateCode from "../untils/generateCode";
 import generateDate from "../untils/generateDate";
 import moment from "moment";
 
-export const getPosts = () => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const res = await db.Post.findAll({
-                raw: true,
-                nest: true,
-                include: [
-                    {
-                        model: db.ImagePost,
-                        as: "imagesData",
-                        attributes: ["images"],
-                    },
-                    {
-                        model: db.Attribute,
-                        as: "attributesData",
-                        attributes: ["price", "acreage", "published", "hashtag"],
-                    },
-                    {
-                        model: db.User,
-                        as: "userData",
-                        attributes: ["name", "phone", "zalo", "avatar"],
-                    },
-                ],
-                attributes: ["id", "title", "star", "address", "description"],
-            });
-            resolve({
-                err: res ? 0 : 1,
-                msg: res ? "Success" : "Error",
-                data: res,
-            });
-        } catch (error) {
-            reject(error);
-        }
-    });
-};
-
-export const getPostsLimit = ({ page = 0, priceNumber, areaNumber, limit, ...query }) => {
+export const getPostsLimit = ({ page = 0, priceNumber, order, areaNumber, limit, ...query }) => {
     return new Promise(async (resolve, reject) => {
         try {
             const lastQuery = { ...query };
@@ -49,8 +13,10 @@ export const getPostsLimit = ({ page = 0, priceNumber, areaNumber, limit, ...que
             const queries = {
                 offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
                 limit: +limit || +process.env.LIMIT,
-                order: [["createdAt", "DESC"]],
             };
+            if (order) {
+                queries.order = order;
+            }
             if (priceNumber) {
                 lastQuery.priceNumber = { [Op.between]: priceNumber };
             }
@@ -92,6 +58,49 @@ export const getPostsLimit = ({ page = 0, priceNumber, areaNumber, limit, ...que
     });
 };
 
+export const getPost = (postId) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            // console.log(first)
+            const res = await db.Post.findOne({
+                raw: true,
+                nest: true,
+                where: { id: postId },
+                include: [
+                    {
+                        model: db.ImagePost,
+                        as: "imagesData",
+                        attributes: ["images"],
+                    },
+                    {
+                        model: db.Attribute,
+                        as: "attributesData",
+                        attributes: ["price", "acreage", "published", "hashtag"],
+                    },
+                    {
+                        model: db.User,
+                        as: "userData",
+                        attributes: ["name", "phone", "zalo", "avatar"],
+                    },
+                    {
+                        model: db.Overview,
+                        as: "overviews",
+                        // attributes: ["name", "phone", "zalo", "avatar"],
+                    },
+                ],
+                attributes: ["id", "title", "star", "address", "description"],
+            });
+            resolve({
+                err: res ? 0 : 1,
+                msg: res ? "Success" : "Error",
+                data: res,
+            });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
+
 export const getNewPosts = (query) => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -99,6 +108,7 @@ export const getNewPosts = (query) => {
                 raw: true,
                 nest: true,
                 offset: 1,
+                where: query,
                 order: [["createdAt", "DESC"]],
                 limit: +process.env.LIMIT,
                 include: [
@@ -185,7 +195,7 @@ export const createNewPost = (id, body) => {
                     target: body.target,
                     bonus: "Tin thường",
                     created: objDate.today,
-                    expired: objDate.expiredDay,
+                    expired: body.expired,
                 });
 
                 await db.Province.findOrCreate({
@@ -322,6 +332,8 @@ export const updatePostPrivate = (id, body) => {
                     {
                         type: body.category,
                         area: body.label,
+
+                        expired: body.expired,
                         target: body.target,
                     },
                     { where: { id: body.overviewId } },
@@ -354,6 +366,31 @@ export const updatePostPrivate = (id, body) => {
                 err: 0,
                 msg: "Success",
             });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
+
+export const deletePostPrivate = (id, body) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            // const currentDate = new Date();
+            const user = await db.User.findOne({ where: { id } });
+            if (user) {
+                const res = await db.Post.destroy({ where: { id: body.postId } });
+                if (res > 0) {
+                    await db.Attribute.destroy({ where: { id: body.attributesId } });
+
+                    await db.ImagePost.destroy({ where: { id: body.imagesId } });
+                    await db.Overview.destroy({ where: { id: body.overviewId } });
+                    resolve({
+                        err: 0,
+                        msg: "Success",
+                        data: res,
+                    });
+                }
+            }
         } catch (error) {
             reject(error);
         }

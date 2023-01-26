@@ -4,14 +4,15 @@ import { verifyRoleCreatorOrAdmin } from "../middlewares/verify_role";
 import verifyToken from "../middlewares/verify_token";
 const router = express.Router();
 
-router.get("/all", controllers.getPosts);
+router.get("/", controllers.getPost);
 router.get("/limit", controllers.getPostsLimit);
 router.get("/new_post", controllers.getNewPosts);
 
 router.use(verifyToken);
 router.use(verifyRoleCreatorOrAdmin);
-router.post("/create_post", controllers.createNewPost);
-router.get("/limit_private", controllers.getPostPrivate);
-router.put("/update_private", controllers.updatePostPrivate);
+router.get("/posts_private", controllers.getPostPrivate);
+router.post("/create", controllers.createNewPost);
+router.put("/update", controllers.updatePostPrivate);
+router.delete("/delete", controllers.deletePostPrivate);
 
 export default router;

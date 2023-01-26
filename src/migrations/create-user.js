@@ -14,8 +14,9 @@ module.exports = {
             roleCode: { type: Sequelize.STRING },
             phone: { type: Sequelize.STRING },
             zalo: { type: Sequelize.STRING },
-            fbUrl: { type: Sequelize.BLOB("long") },
-            avatar: { type: Sequelize.STRING },
+            fbUrl: { type: Sequelize.STRING },
+            avatar: { type: Sequelize.BLOB("long") },
+            refreshToken: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: "TIMESTAMP",

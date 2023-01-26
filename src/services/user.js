@@ -1,7 +1,5 @@
 import db from "../models";
 
-//GET current user
-
 export const getOne = (userId) => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -26,6 +24,27 @@ export const getOne = (userId) => {
                 msg: response ? "Successfully" : "Error while getting price",
                 data: response,
             });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
+
+export const updateUser = (userId, body) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const user = await db.User.findOne({
+                where: { id: userId },
+            });
+            if (user) {
+                const res = await db.User.update(body, {
+                    where: { id: userId },
+                });
+                resolve({
+                    err: res > 0 ? 0 : 1,
+                    msg: res > 0 ? "Updated successfully" : "updated error",
+                });
+            }
         } catch (error) {
             reject(error);
         }

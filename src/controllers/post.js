@@ -1,15 +1,6 @@
-import { internalServerError } from "../middlewares/http_errors";
+import { badRequest, internalServerError } from "../middlewares/http_errors";
 import * as postServices from "../services/post";
 import { authorization } from "../middlewares/http_errors";
-
-export const getPosts = async (req, res) => {
-    try {
-        const response = await postServices.getPosts();
-        return res.status(200).json(response);
-    } catch (error) {
-        return internalServerError(res, error);
-    }
-};
 
 export const getPostsLimit = async (req, res) => {
     try {
@@ -24,8 +15,19 @@ export const getPostsLimit = async (req, res) => {
 
 export const getNewPosts = async (req, res) => {
     try {
+        const response = await postServices.getNewPosts(req.query);
+        return res.status(200).json(response);
+    } catch (error) {
+        return internalServerError(res, error);
+    }
+};
+export const getPost = async (req, res) => {
+    try {
         // const { page, priceCode, l } = req.query;
-        const response = await postServices.getNewPosts();
+        const { id } = req.query;
+        console.log(id);
+        if (!id) return badRequest(res, "missing id");
+        const response = await postServices.getPost(id);
         return res.status(200).json(response);
     } catch (error) {
         return internalServerError(res, error);
@@ -52,7 +54,6 @@ export const createNewPost = async (req, res) => {
 export const getPostPrivate = async (req, res) => {
     try {
         const { id } = req.user;
-        if (!id) return authorization(res, "You do not logged in");
         const response = await postServices.getPostPrivate(id, req.body);
         return res.status(200).json(response);
     } catch (error) {
@@ -62,8 +63,19 @@ export const getPostPrivate = async (req, res) => {
 export const updatePostPrivate = async (req, res) => {
     try {
         const { id } = req.user;
-        if (!id) return authorization(res, "You do not logged in");
         const response = await postServices.updatePostPrivate(id, req.body);
+        return res.status(200).json(response);
+    } catch (error) {
+        return internalServerError(res, error);
+    }
+};
+export const deletePostPrivate = async (req, res) => {
+    try {
+        const { id } = req.user;
+        const { postId, attributesId, imagesId, overviewId } = req.body;
+        if (!postId || !attributesId || !imagesId || !overviewId)
+            return badRequest(res, "missing input");
+        const response = await postServices.deletePostPrivate(id, req.body);
         return res.status(200).json(response);
     } catch (error) {
         return internalServerError(res, error);
