@@ -1,7 +1,7 @@
 import express from "express";
 import * as controllers from "../controllers/post";
 import { verifyRoleCreatorOrAdmin } from "../middlewares/verify_role";
-import verifyToken from "../middlewares/verify_token";
+import { verifyToken } from "../middlewares/verify_token";
 const router = express.Router();
 
 router.get("/", controllers.getPost);

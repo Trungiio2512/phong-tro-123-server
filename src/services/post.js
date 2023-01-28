@@ -15,7 +15,7 @@ export const getPostsLimit = ({ page = 0, priceNumber, order, areaNumber, limit,
                 limit: +limit || +process.env.LIMIT,
             };
             if (order) {
-                queries.order = order;
+                queries.order = [order];
             }
             if (priceNumber) {
                 lastQuery.priceNumber = { [Op.between]: priceNumber };
@@ -44,8 +44,13 @@ export const getPostsLimit = ({ page = 0, priceNumber, order, areaNumber, limit,
                         as: "userData",
                         attributes: ["name", "phone", "zalo", "avatar"],
                     },
+                    {
+                        model: db.Label,
+                        as: "labelData",
+                        attributes: ["code", "value"],
+                    },
                 ],
-                attributes: ["id", "title", "star", "address", "description"],
+                attributes: ["id", "title", "star", "address", "description", "categoryCode"],
             });
             resolve({
                 err: res ? 0 : 1,
@@ -83,6 +88,11 @@ export const getPost = (postId) => {
                         attributes: ["name", "phone", "zalo", "avatar"],
                     },
                     {
+                        model: db.Label,
+                        as: "labelData",
+                        attributes: ["code", "value"],
+                    },
+                    {
                         model: db.Overview,
                         as: "overviews",
                         // attributes: ["name", "phone", "zalo", "avatar"],
@@ -101,16 +111,20 @@ export const getPost = (postId) => {
     });
 };
 
-export const getNewPosts = (query) => {
+export const getNewPosts = ({ limit, order, ...query }) => {
     return new Promise(async (resolve, reject) => {
         try {
+            let oders = [["updatedAt", "DESC"]];
+            if (order) {
+                oders.push(order);
+            }
+            // console.log(limit);
             const res = await db.Post.findAll({
                 raw: true,
                 nest: true,
-                offset: 1,
                 where: query,
-                order: [["createdAt", "DESC"]],
-                limit: +process.env.LIMIT,
+                order: oders,
+                limit: +limit || +process.env.LIMIT,
                 include: [
                     {
                         model: db.ImagePost,
@@ -122,8 +136,13 @@ export const getNewPosts = (query) => {
                         as: "attributesData",
                         attributes: ["price"],
                     },
+                    {
+                        model: db.Label,
+                        as: "labelData",
+                        attributes: ["code", "value"],
+                    },
                 ],
-                attributes: ["id", "title", "star", "createdAt"],
+                attributes: ["id", "title", "star", "updatedAt", "categoryCode"],
             });
             resolve({
                 err: res ? 0 : 1,
@@ -232,20 +251,23 @@ export const createNewPost = (id, body) => {
     });
 };
 
-export const getPostPrivate = (userId, { page = 0, limit }) => {
+export const getPostPrivate = (userId) => {
     return new Promise(async (resolve, reject) => {
         try {
-            // console.log(page);
-            const queries = {
-                offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
-                limit: +limit || +process.env.LIMIT,
-                order: [["createdAt", "DESC"]],
-            };
+            console.log(userId);
+            // const queries = {
+            //     offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
+            //     limit: +process.env.LIMIT,
+            // };
+
+            // if (limit) {
+            //     queries.limit = +limit;
+            // }
 
             const res = await db.Post.findAndCountAll({
                 raw: true,
                 nest: true,
-                ...queries,
+                // ...queries,
                 where: { userId },
                 include: [
                     {
@@ -266,10 +288,24 @@ export const getPostPrivate = (userId, { page = 0, limit }) => {
                         },
                     },
                 ],
-
-                attributes: {
-                    exclude: ["userId"],
-                },
+                attributes: [
+                    "id",
+                    "title",
+                    "star",
+                    "labelCode",
+                    "address",
+                    "attributesId",
+                    "categoryCode",
+                    "priceCode",
+                    "areaCode",
+                    "provinceCode",
+                    "description",
+                    // "userId",
+                    "overviewId",
+                    "imagesId",
+                    "priceNumber",
+                    "areaNumber",
+                ],
             });
             resolve({
                 err: res ? 0 : 1,

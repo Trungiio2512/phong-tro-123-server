@@ -9,6 +9,10 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
+            Label.hasMany(models.Post, {
+                targetKey: "labelCode",
+                as: "labelData",
+            });
         }
     }
     Label.init(

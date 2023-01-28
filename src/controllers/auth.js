@@ -13,9 +13,9 @@ export const register = async (req, res) => {
 
         if (error) return badRequest(res, error?.details[0]?.message);
 
-        const response = await authServices.register(req.body);
+        const result = await authServices.register(req.body);
 
-        return res.status(200).json(response);
+        return res.status(200).json(result);
     } catch (error) {
         return internalServerError(res, error);
     }
@@ -26,9 +26,9 @@ export const login = async (req, res) => {
 
         if (error) return badRequest(res, error?.details[0]?.message);
 
-        const response = await authServices.login(req.body);
+        const result = await authServices.login(req.body);
 
-        return res.status(200).json(response);
+        return res.status(200).json(result);
     } catch (error) {
         return internalServerError(res, error);
     }

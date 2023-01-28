@@ -29,6 +29,11 @@ module.exports = (sequelize, DataTypes) => {
                 targetKey: "id",
                 as: "overviews",
             });
+            Post.belongsTo(models.Label, {
+                foreignKey: "labelCode",
+                targetKey: "code",
+                as: "labelData",
+            });
         }
     }
     Post.init(

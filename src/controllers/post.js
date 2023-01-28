@@ -54,9 +54,12 @@ export const createNewPost = async (req, res) => {
 export const getPostPrivate = async (req, res) => {
     try {
         const { id } = req.user;
-        const response = await postServices.getPostPrivate(id, req.body);
+        console.log(id);
+        const response = await postServices.getPostPrivate(id);
+        // console.log(response);
         return res.status(200).json(response);
     } catch (error) {
+        console.log(error);
         return internalServerError(res, error);
     }
 };

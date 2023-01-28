@@ -2,11 +2,11 @@ import express from "express";
 import cors from "cors";
 import initRoutes from "./src/routes";
 import connection from "./config_database";
-import { getNumberInString } from "./src/untils/common";
-
+// import { getNumberInString } from "./src/untils/common";
+var cookieParser = require("cookie-parser");
 require("dotenv").config();
-getNumberInString("12 đồng/tháng");
 const app = express();
+app.use(cookieParser());
 app.use(
     cors({
         origin: process.env.CLIENT_URL,
