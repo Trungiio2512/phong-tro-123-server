@@ -16,8 +16,8 @@ export const authorization = (res, err) => {
     });
 };
 
-export const internalServerError = (res, err) => {
-    const error = createError.InternalServerError(err);
+export const internalServerError = (res) => {
+    const error = createError.InternalServerError();
     return res.status(error.status).json({
         err: -1,
         msg: error.message,

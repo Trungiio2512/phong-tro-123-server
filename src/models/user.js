@@ -15,6 +15,13 @@ module.exports = (sequelize, DataTypes) => {
                 targetKey: "code",
                 as: "role",
             });
+            // User.hasMany(models.LovePost);
+
+            User.belongsToMany(models.Post, {
+                through: models.LovePost,
+                as: "userPosts",
+                foreignKey: "userId",
+            });
         }
     }
     User.init(

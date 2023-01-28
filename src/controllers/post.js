@@ -9,7 +9,7 @@ export const getPostsLimit = async (req, res) => {
         const response = await postServices.getPostsLimit(req.query);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 
@@ -18,7 +18,7 @@ export const getNewPosts = async (req, res) => {
         const response = await postServices.getNewPosts(req.query);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 export const getPost = async (req, res) => {
@@ -30,7 +30,7 @@ export const getPost = async (req, res) => {
         const response = await postServices.getPost(id);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 
@@ -47,7 +47,7 @@ export const createNewPost = async (req, res) => {
         return res.status(200).json(response);
     } catch (error) {
         console.log(error);
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 
@@ -60,7 +60,7 @@ export const getPostPrivate = async (req, res) => {
         return res.status(200).json(response);
     } catch (error) {
         console.log(error);
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 export const updatePostPrivate = async (req, res) => {
@@ -69,7 +69,7 @@ export const updatePostPrivate = async (req, res) => {
         const response = await postServices.updatePostPrivate(id, req.body);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 export const deletePostPrivate = async (req, res) => {
@@ -81,6 +81,6 @@ export const deletePostPrivate = async (req, res) => {
         const response = await postServices.deletePostPrivate(id, req.body);
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };

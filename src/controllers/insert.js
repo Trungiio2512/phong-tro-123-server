@@ -6,6 +6,6 @@ export const insert = async (req, res) => {
 
         return res.status(200).json(response);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };

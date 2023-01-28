@@ -17,7 +17,7 @@ export const register = async (req, res) => {
 
         return res.status(200).json(result);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 export const login = async (req, res) => {
@@ -30,7 +30,7 @@ export const login = async (req, res) => {
 
         return res.status(200).json(result);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };
 export const refresh = async (req, res) => {
@@ -40,6 +40,6 @@ export const refresh = async (req, res) => {
         const respone = await authServices.refresh(id, refreshToken);
         return res.status(200).json(respone);
     } catch (error) {
-        return internalServerError(res, error);
+        return internalServerError(res);
     }
 };

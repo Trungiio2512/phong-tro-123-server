@@ -34,6 +34,12 @@ module.exports = (sequelize, DataTypes) => {
                 targetKey: "code",
                 as: "labelData",
             });
+            // Post.hasMany(models.LovePost);
+            Post.belongsToMany(models.User, {
+                through: models.LovePost,
+                as: "postUsers",
+                foreignKey: "postId",
+            });
         }
     }
     Post.init(

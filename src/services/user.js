@@ -50,3 +50,73 @@ export const updateUser = (userId, body) => {
         }
     });
 };
+
+export const getLovePosts = (userId) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await db.User.findAll({
+                where: { id: userId },
+                include: [
+                    {
+                        model: db.Post,
+                        as: "userPosts",
+                        include: [
+                            {
+                                model: db.ImagePost,
+                                as: "imagesData",
+                                attributes: ["images"],
+                            },
+                            {
+                                model: db.Attribute,
+                                as: "attributesData",
+                                attributes: ["price", "acreage", "published", "hashtag"],
+                            },
+                            {
+                                model: db.Label,
+                                as: "labelData",
+                                attributes: ["code", "value"],
+                            },
+                        ],
+                        attributes: [
+                            "id",
+                            "title",
+                            "star",
+                            "address",
+                            "description",
+                            "categoryCode",
+                        ],
+                        attributes: [
+                            "id",
+                            "title",
+                            "star",
+                            "labelCode",
+                            "address",
+                            "attributesId",
+                            "categoryCode",
+                            "priceCode",
+                            "areaCode",
+                            "provinceCode",
+                            "description",
+                            // "userId",
+                            "overviewId",
+                            "imagesId",
+                            "priceNumber",
+                            "areaNumber",
+                        ],
+                        through: {
+                            attributes: [],
+                        },
+                    },
+                ],
+                attributes: [],
+            });
+            resolve({
+                err: 0,
+                msg: "Successful get love posts",
+                data: data[0]?.userPosts,
+            });
+        } catch (error) {
+            reject(error);
+        }
+    });
+};
