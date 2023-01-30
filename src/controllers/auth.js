@@ -13,6 +13,7 @@ export const register = async (req, res) => {
 
         if (error) return badRequest(res, error?.details[0]?.message);
 
+        // res.cookie("name", "werwerwrwrwe");
         const result = await authServices.register(req.body);
 
         return res.status(200).json(result);
@@ -27,6 +28,7 @@ export const login = async (req, res) => {
         if (error) return badRequest(res, error?.details[0]?.message);
 
         const result = await authServices.login(req.body);
+        // res.cookie("name", "werwerwrwrwe");
 
         return res.status(200).json(result);
     } catch (error) {

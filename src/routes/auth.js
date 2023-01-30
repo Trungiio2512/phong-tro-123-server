@@ -1,4 +1,5 @@
 import express from "express";
+// app.use(express.cookieParser());
 
 import * as controllers from "../controllers/auth";
 import { verifyRefreshToken } from "../middlewares/verify_token";

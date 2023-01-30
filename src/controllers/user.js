@@ -4,9 +4,11 @@ import * as userService from "../services/user";
 export const getCurrent = async (req, res) => {
     try {
         const { id } = req.user;
+        // console.log(id);
         const response = await userService.getOne(id);
         return res.status(200).json(response);
     } catch (error) {
+        // console.log(error);
         return internalServerError(res);
         // return res.status(500).json(error);
     }

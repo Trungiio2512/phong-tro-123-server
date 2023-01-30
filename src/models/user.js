@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
             User.belongsTo(models.Role, {
                 foreignKey: "roleCode",
                 targetKey: "code",
-                as: "role",
+                as: "userRole",
             });
             // User.hasMany(models.LovePost);
 

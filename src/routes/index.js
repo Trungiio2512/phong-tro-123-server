@@ -8,6 +8,7 @@ import area from "./area";
 import province from "./province";
 import user from "./user";
 import lovePost from "./lovePost";
+import admin from "./admin";
 
 const initRoutes = (app) => {
     app.use("/api/v1/auth", auth);
@@ -19,6 +20,7 @@ const initRoutes = (app) => {
     app.use("/api/v1/province", province);
     app.use("/api/v1/user", user);
     app.use("/api/v1/love_post", lovePost);
+    app.use("/api/v1/admin", admin);
     app.use(notFound);
 };
 

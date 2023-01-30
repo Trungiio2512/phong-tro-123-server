@@ -14,7 +14,7 @@ export const getOne = (userId) => {
                 include: [
                     {
                         model: db.Role,
-                        as: "role",
+                        as: "userRole",
                         attributes: ["id", "code", "value"],
                     },
                 ],
