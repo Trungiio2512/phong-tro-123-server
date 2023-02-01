@@ -129,6 +129,7 @@ export const getLovePosts = (userId, page, limit) => {
     }
   });
 };
+
 export const getRegisterPosts = (userId, page, limit, title) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -150,40 +151,39 @@ export const getRegisterPosts = (userId, page, limit, title) => {
           id: userId,
         },
         ...queries,
-        include: [
-          {
-            model: db.Post,
-            as: "userRegisterPosts",
-            where: { ...search },
-            include: [
-              {
-                model: db.ImagePost,
-                as: "imagesData",
-                attributes: ["images"],
-              },
-              {
-                model: db.Attribute,
-                as: "attributesData",
-                attributes: ["price"],
-              },
-              {
-                model: db.User,
-                as: "userData",
-                attributes: ["name", "phone", "zalo"],
-              },
-              {
-                model: db.Overview,
-                as: "overviews",
-                attributes: ["expired"],
-              },
-            ],
-
-            attributes: ["id", "title", "address"],
-            through: {
-              attributes: [],
+        include: {
+          model: db.Post,
+          as: "userRegisterPosts",
+          where: { ...search },
+          include: [
+            {
+              model: db.ImagePost,
+              as: "imagesData",
+              attributes: ["images"],
             },
+            {
+              model: db.Attribute,
+              as: "attributesData",
+              attributes: ["price"],
+            },
+            {
+              model: db.User,
+              as: "userData",
+              attributes: ["name", "phone", "zalo"],
+            },
+            {
+              model: db.Overview,
+              as: "overviews",
+              attributes: ["expired"],
+            },
+          ],
+
+          attributes: ["id", "title", "address"],
+          through: {
+            attributes: [],
           },
-        ],
+        },
+
         attributes: [],
       });
       resolve({

@@ -6,15 +6,13 @@ import generateDate from "../untils/generateDate";
 import moment from "moment";
 require("dotenv").config();
 
-export const getPostsLimit = ({ page, priceNumber, order, areaNumber, limit, ...query }) => {
+export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit, ...query }) => {
   return new Promise(async (resolve, reject) => {
     try {
       const lastQuery = { ...query };
       // console.log(page);
-      const queries = {
-        offset: ((+page || +page - 1) <= 1 ? 0 : +page - 1) * +process.env.LIMIT,
-        limit: +limit || +process.env.LIMIT,
-      };
+      const lastLimit = limit ? +limit : +process.env.LIMIT;
+      const lastOffset = +page <= 1 ? 0 : (+page - 1) * lastLimit;
       if (order) {
         queries.order = [order];
       }
@@ -27,7 +25,8 @@ export const getPostsLimit = ({ page, priceNumber, order, areaNumber, limit, ...
       const res = await db.Post.findAndCountAll({
         raw: true,
         nest: true,
-        ...queries,
+        limit: lastLimit,
+        offset: lastOffset,
         where: lastQuery,
         include: [
           {

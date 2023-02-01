@@ -9,6 +9,7 @@ export const getPostsLimit = async (req, res) => {
     const response = await postServices.getPostsLimit(req.query);
     return res.status(200).json(response);
   } catch (error) {
+    console.log(error);
     return internalServerError(res);
   }
 };

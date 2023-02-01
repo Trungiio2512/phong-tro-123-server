@@ -41,7 +41,7 @@ export const getRegisterPosts = async (req, res) => {
   try {
     const { id } = req.user;
     const { page, limit, title } = req.query;
-    console.log({ page, limit, title });
+    // console.log({ page, limit, title });
     if (!page) return badRequest(res, "Missing page value");
     const response = await userService.getRegisterPosts(id, page, limit, title);
     return res.status(200).json(response);
