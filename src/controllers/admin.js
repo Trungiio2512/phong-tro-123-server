@@ -50,3 +50,68 @@ export const statistic = async (req, res) => {
     // return res.status(500).json(error);
   }
 };
+export const getPosts = async (req, res) => {
+  try {
+    // console.log(id);
+    const { page } = req.query;
+    // console.log(req.query);
+    if (!page) return badRequest(res, "missing page");
+
+    const response = await adminServices.getPosts(req.query);
+    // console.log(response);
+    return res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
+    return internalServerError(res);
+  }
+};
+export const getCategories = async (req, res) => {
+  try {
+    // console.log(id);
+    const { page } = req.query;
+    // console.log(req.query);
+    if (!page) return badRequest(res, "missing page");
+
+    const response = await adminServices.getCategories(req.query);
+    // console.log(response);
+    return res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
+    return internalServerError(res);
+  }
+};
+export const createCategory = async (req, res) => {
+  try {
+    const { value, header, subheader } = req.body;
+    if (!value || !header || !subheader) return badRequest(res, "Missing value input");
+    const response = await adminServices.createCategory(req.body);
+    return res.status(200).json(response);
+  } catch (error) {
+    return internalServerError(res);
+    // return res.status(500).json(error);
+  }
+};
+export const deleteCategory = async (req, res) => {
+  try {
+    const { code } = req.body;
+    if (!code) return badRequest(res, "Missing value input");
+    const response = await adminServices.deleteCategory(code);
+    return res.status(200).json(response);
+  } catch (error) {
+    return internalServerError(res);
+    // return res.status(500).json(error);
+  }
+};
+export const updateCategory = async (req, res) => {
+  try {
+    const { code, value, header, subheader } = req.body;
+    if (!code || !value || !header || !subheader) return badRequest(res, "Missing value input");
+    // console.log(req.body);
+
+    const response = await adminServices.updateCategory(req.body);
+    return res.status(200).json(response);
+  } catch (error) {
+    return internalServerError(res);
+    // return res.status(500).json(error);
+  }
+};

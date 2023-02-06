@@ -51,3 +51,17 @@ export const getRegisterPosts = async (req, res) => {
     // return res.status(500).json(error);
   }
 };
+export const getUsersRegisterPost = async (req, res) => {
+  try {
+    const { id } = req.user;
+    const { title } = req.query;
+    // console.log({ page, limit, title });
+    // if (!page) return badRequest(res, "Missing page value");
+    const response = await userService.getUsersRegisterPosts(id, title);
+    return res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
+    return internalServerError(res);
+    // return res.status(500).json(error);
+  }
+};

@@ -60,7 +60,7 @@ export const getPostPrivate = async (req, res) => {
     console.log(req.query);
     if (!page) return badRequest(res, "missing page");
 
-    const response = await postServices.getPostPrivate(id, page, limit, title);
+    const response = await postServices.getPostPrivate({ id, page, limit, title });
     // console.log(response);
     return res.status(200).json(response);
   } catch (error) {
@@ -79,11 +79,10 @@ export const updatePostPrivate = async (req, res) => {
 };
 export const deletePostPrivate = async (req, res) => {
   try {
-    const { id } = req.user;
     const { postId, attributesId, imagesId, overviewId } = req.body;
     if (!postId || !attributesId || !imagesId || !overviewId)
       return badRequest(res, "missing input");
-    const response = await postServices.deletePostPrivate(id, req.body);
+    const response = await postServices.deletePostPrivate(req.body);
     return res.status(200).json(response);
   } catch (error) {
     return internalServerError(res);

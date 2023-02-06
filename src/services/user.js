@@ -196,3 +196,50 @@ export const getRegisterPosts = (userId, page, limit, title) => {
     }
   });
 };
+export const getUsersRegisterPosts = (userId, title) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      // const lastLimit = limit ? +limit : +process.env.LIMIT;
+      // let lastOffet = page && +page <= 1 ? 0 : (+page - 1) * lastLimit;
+
+      // const queries = {
+      //   offset: lastOffet,
+      //   limit: lastLimit,
+      // };
+
+      let search = { userId };
+      if (title) {
+        search.title = { [Op.substring]: title };
+      }
+
+      const data = await db.Post.findAll({
+        where: search,
+        // ...queries,
+        attributes: ["id", "title", "address"],
+        include: [
+          {
+            model: db.User,
+            as: "postRegisterByUsers",
+            // where: { ...search },
+            attributes: ["id", "name", "phone", "zalo", "avatar"],
+            through: {
+              attributes: [],
+            },
+          },
+          {
+            model: db.ImagePost,
+            as: "imagesData",
+            attributes: ["images"],
+          },
+        ],
+      });
+      resolve({
+        err: 0,
+        msg: "Successful get register posts",
+        data,
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
+};

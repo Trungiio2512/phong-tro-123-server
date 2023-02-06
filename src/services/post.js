@@ -11,11 +11,11 @@ export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit,
     try {
       const lastQuery = { ...query };
       // console.log(page);
-      const lastLimit = limit ? +limit : +process.env.LIMIT;
-      const lastOffset = +page <= 1 ? 0 : (+page - 1) * lastLimit;
-      if (order) {
-        queries.order = [order];
-      }
+      const queries = {};
+      queries.limit = limit ? +limit : +process.env.LIMIT;
+      queries.offset = +page <= 1 ? 0 : (+page - 1) * lastLimit;
+      queries.order = order ? [order] : [];
+
       if (priceNumber) {
         lastQuery.priceNumber = { [Op.between]: priceNumber };
       }
@@ -25,8 +25,7 @@ export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit,
       const res = await db.Post.findAndCountAll({
         raw: true,
         nest: true,
-        limit: lastLimit,
-        offset: lastOffset,
+        ...queries,
         where: lastQuery,
         include: [
           {
@@ -251,7 +250,7 @@ export const createNewPost = (id, body) => {
   });
 };
 
-export const getPostPrivate = (userId, page, limit, title) => {
+export const getPostPrivate = ({ id, page, limit, title }) => {
   return new Promise(async (resolve, reject) => {
     try {
       // console.log(userId);
@@ -262,8 +261,10 @@ export const getPostPrivate = (userId, page, limit, title) => {
         offset: offsetpage,
       };
 
-      const query = { userId };
-
+      const query = {};
+      if (id) {
+        query.userId = id;
+      }
       if (title) {
         query.title = { [Op.substring]: title };
       }
@@ -412,24 +413,27 @@ export const updatePostPrivate = (id, body) => {
   });
 };
 
-export const deletePostPrivate = (id, body) => {
+export const deletePostPrivate = (body) => {
   return new Promise(async (resolve, reject) => {
     try {
       // const currentDate = new Date();
-      const user = await db.User.findOne({ where: { id } });
-      if (user) {
-        const res = await db.Post.destroy({ where: { id: body.postId } });
-        if (res > 0) {
-          await db.Attribute.destroy({ where: { id: body.attributesId } });
+      const res = await db.Post.destroy({ where: { id: body.postId } });
+      if (res > 0) {
+        await db.Attribute.destroy({ where: { id: body.attributesId } });
 
-          await db.ImagePost.destroy({ where: { id: body.imagesId } });
-          await db.Overview.destroy({ where: { id: body.overviewId } });
-          resolve({
-            err: 0,
-            msg: "Success",
-            data: res,
-          });
-        }
+        await db.ImagePost.destroy({ where: { id: body.imagesId } });
+        await db.Overview.destroy({ where: { id: body.overviewId } });
+        await db.RegisterPost.destroy({
+          where: { postId: body.postId },
+        });
+        await db.LovePost.destroy({
+          where: { postId: body.postId },
+        });
+        resolve({
+          err: 0,
+          msg: "Success",
+          data: res,
+        });
       }
     } catch (error) {
       reject(error);
