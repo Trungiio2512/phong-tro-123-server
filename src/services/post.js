@@ -13,7 +13,7 @@ export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit,
       // console.log(page);
       const queries = {};
       queries.limit = limit ? +limit : +process.env.LIMIT;
-      queries.offset = +page <= 1 ? 0 : (+page - 1) * lastLimit;
+      queries.offset = +page <= 1 ? 0 : (+page - 1) * queries.limit;
       queries.order = order ? [order] : [];
 
       if (priceNumber) {

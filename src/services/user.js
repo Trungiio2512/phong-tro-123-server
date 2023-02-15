@@ -189,7 +189,7 @@ export const getRegisterPosts = (userId, page, limit, title) => {
       resolve({
         err: 0,
         msg: "Successful get register posts",
-        data: { count, rows: rows[0].userRegisterPosts },
+        data: { count, rows: rows[0]?.userRegisterPosts },
       });
     } catch (error) {
       reject(error);

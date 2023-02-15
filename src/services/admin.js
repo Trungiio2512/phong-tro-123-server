@@ -246,8 +246,8 @@ export const updateCategory = ({ code, value, header, subheader }) => {
     try {
       const res = await db.Category.update({ value, header, subheader }, { where: { code } });
       resolve({
-        err: res[0] > 0 ? 0 : 2,
-        msg: res[0] > 0 ? "Sửa thành công" : "Sửa thất bại",
+        err: res > 0 ? 0 : 2,
+        msg: res > 0 ? "Sửa thành công" : "Sửa thất bại",
         data: res,
       });
     } catch (error) {
