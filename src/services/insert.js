@@ -64,6 +64,21 @@ const dataCategory = [
   },
 ];
 
+const dataRole = [
+  {
+    code: "R1",
+    value: "admin",
+  },
+  {
+    code: "R2",
+    value: "creator",
+  },
+  {
+    code: "R3",
+    value: "user",
+  },
+];
+
 export const insert = () =>
   new Promise(async (resolve, reject) => {
     try {
@@ -73,6 +88,7 @@ export const insert = () =>
       const userlist = [];
 
       await db.Category.bulkCreate(dataCategory);
+      await db.Role.bulkCreate(dataRole);
 
       dataPrice.forEach(async (price, index) => {
         await db.Price.create({
