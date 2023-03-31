@@ -33,6 +33,37 @@ const dataBody = [
   },
 ];
 
+const dataCategory = [
+  {
+    code: "CTCH",
+    value: "Cho thuê căn hộ",
+    header: "Cho Thuê Căn Hộ Chung Cư, Giá Rẻ, Mới Nhất 2022",
+    subheader:
+      "Cho thuê căn hộ - Kênh đăng tin cho thuê căn hộ số 1: giá rẻ, chính chủ, đầy đủ tiện nghi. Cho thuê chung cư với nhiều mức giá, diện tích cho thuê khác nhau.",
+  },
+  {
+    code: "CTMB",
+    value: "Cho thuê mặt bằng",
+    header: "Cho Thuê Mặt Bằng, Cho Thuê Văn Phòng, Cửa Hàng, Kiot, Mới Nhất 2022",
+    subheader:
+      "Cho thuê mặt bằng - Kênh đăng tin cho thuê mặt bằng, cho thuê cửa hàng, cho thuê kiot số 1: giá rẻ, mặt tiền, khu đông dân cư, phù hợp kinh doanh.",
+  },
+  {
+    code: "CTPT",
+    value: "Cho thuê phòng trọ",
+    header: "Cho Thuê Phòng Trọ, Giá Rẻ, Tiện Nghi, Mới Nhất 2022",
+    subheader:
+      "Cho thuê phòng trọ - Kênh thông tin số 1 về phòng trọ giá rẻ, phòng trọ sinh viên, phòng trọ cao cấp mới nhất năm 2022. Tất cả nhà trọ cho thuê giá tốt nhất tại Việt Nam.",
+  },
+  {
+    code: "NCT",
+    value: "Nhà cho thuê",
+    header: "Cho Thuê Nhà Nguyên Căn, Giá Rẻ, Chính Chủ, Mới Nhất 2022",
+    subheader:
+      "Cho thuê nhà nguyên căn - Kênh đăng tin cho thuê nhà số 1: giá rẻ, chính chủ, miễn trung gian, đầy đủ tiện nghi, mức giá, diện tích cho thuê khác nhau.",
+  },
+];
+
 export const insert = () =>
   new Promise(async (resolve, reject) => {
     try {
@@ -40,6 +71,23 @@ export const insert = () =>
       const provinceCodes = [];
       const labelCodes = [];
       const userlist = [];
+
+      await db.Category.bulkCreate(dataCategory);
+
+      dataPrice.forEach(async (price, index) => {
+        await db.Price.create({
+          order: index + 1,
+          code: price.code,
+          value: price.value,
+        });
+      });
+      dataArea.forEach(async (area, index) => {
+        await db.Area.create({
+          order: index + 1,
+          code: area.code,
+          value: area.value,
+        });
+      });
       dataBody.forEach((cate) => {
         cate.body.forEach(async (item) => {
           let postId = v4();
