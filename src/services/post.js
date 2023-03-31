@@ -22,7 +22,7 @@ export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit,
       if (areaNumber) {
         lastQuery.areaNumber = { [Op.between]: areaNumber };
       }
-      const res = await db.Post.findAndCountAll({
+      const res = await db.Post1.findAndCountAll({
         raw: true,
         nest: true,
         ...queries,
@@ -49,7 +49,7 @@ export const getPostsLimit = ({ page = 1, priceNumber, order, areaNumber, limit,
             attributes: ["code", "value"],
           },
         ],
-        attributes: ["id", "title", "star", "address", "description", "categoryCode"],
+        // attributes: ["id", "title", "star", "address", "description", "categoryCode"],
       });
       resolve({
         err: res ? 0 : 1,
@@ -66,7 +66,7 @@ export const getPost = (postId) => {
   return new Promise(async (resolve, reject) => {
     try {
       // console.log(first)
-      const res = await db.Post.findOne({
+      const res = await  db.Post1.findOne({
         raw: true,
         nest: true,
         where: { id: postId },
@@ -118,7 +118,7 @@ export const getNewPosts = ({ limit, order, ...query }) => {
         oders.push(order);
       }
       // console.log(limit);
-      const res = await db.Post.findAll({
+      const res = await  db.Post1.findAll({
         raw: true,
         nest: true,
         where: query,
@@ -170,7 +170,7 @@ export const createNewPost = (id, body) => {
           ? generateCode(body.province.replace("Thành phố ", ""))
           : generateCode(body.province.replace("Tỉnh ", ""));
         const hashtag = `#${Math.floor(Math.random() * Math.pow(10, 6))}`;
-        await db.Post.create({
+        await  db.Post1.create({
           id: v4(),
           title: body?.title,
           star: 0,
@@ -269,7 +269,7 @@ export const getPostPrivate = ({ id, page, limit, title }) => {
         query.title = { [Op.substring]: title };
       }
       // console.log(query);
-      const res = await db.Post.findAndCountAll({
+      const res = await  db.Post1.findAndCountAll({
         raw: true,
         nest: true,
         ...queries,
@@ -334,7 +334,7 @@ export const updatePostPrivate = (id, body) => {
         const provinceCode = body.province.includes("Thành phố")
           ? generateCode(body.province.replace("Thành phố ", ""))
           : generateCode(body.province.replace("Tỉnh ", ""));
-        await db.Post.update(
+        await  db.Post1.update(
           {
             title: body?.title,
             labelCode,
@@ -417,7 +417,7 @@ export const deletePostPrivate = (body) => {
   return new Promise(async (resolve, reject) => {
     try {
       // const currentDate = new Date();
-      const res = await db.Post.destroy({ where: { id: body.postId } });
+      const res = await  db.Post1.destroy({ where: { id: body.postId } });
       if (res > 0) {
         await db.Attribute.destroy({ where: { id: body.attributesId } });
 

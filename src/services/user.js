@@ -67,7 +67,7 @@ export const getLovePosts = (userId, page, limit) => {
         ...queries,
         include: [
           {
-            model: db.Post,
+            model: db.Post1,
             as: "userPosts",
             include: [
               {
@@ -152,7 +152,7 @@ export const getRegisterPosts = (userId, page, limit, title) => {
         },
         ...queries,
         include: {
-          model: db.Post,
+          model: db.Post1,
           as: "userRegisterPosts",
           where: { ...search },
           include: [
@@ -212,7 +212,7 @@ export const getUsersRegisterPosts = (userId, title) => {
         search.title = { [Op.substring]: title };
       }
 
-      const data = await db.Post.findAll({
+      const data = await db.Post1.findAll({
         where: search,
         // ...queries,
         attributes: ["id", "title", "address"],

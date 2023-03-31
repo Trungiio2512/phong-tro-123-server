@@ -7,7 +7,7 @@ export const statistic = () => {
   return new Promise(async (resolve, reject) => {
     try {
       const user = db.User.count();
-      const post = db.Post.count();
+      const post = db.Post1.count();
       const province = db.Province.count();
       const category = db.Category.count();
       const [countUser, countPost, countProvince, countCategory] = await Promise.all([
@@ -127,7 +127,7 @@ export const getPosts = ({ page, limit, title }) => {
         query.title = { [Op.substring]: title };
       }
       // console.log(query);
-      const res = await db.Post.findAndCountAll({
+      const res = await db.Post1.findAndCountAll({
         raw: true,
         nest: true,
         ...queries,
