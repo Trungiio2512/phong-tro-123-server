@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      User.hasMany(models.Post, { foreignKey: "userId", as: "userData" });
+      User.hasMany(models.Post1, { foreignKey: "userId", as: "userData" });
       User.belongsTo(models.Role, {
         foreignKey: "roleCode",
         targetKey: "code",
@@ -17,12 +17,12 @@ module.exports = (sequelize, DataTypes) => {
       });
       // User.hasMany(models.LovePost);
 
-      User.belongsToMany(models.Post, {
+      User.belongsToMany(models.Post1, {
         through: models.LovePost,
         as: "userPosts",
         foreignKey: "userId",
       });
-      User.belongsToMany(models.Post, {
+      User.belongsToMany(models.Post1, {
         through: models.RegisterPost,
         as: "userRegisterPosts",
         foreignKey: "userId",

@@ -29,6 +29,7 @@ export const getLovePosts = async (req, res) => {
   try {
     const { id } = req.user;
     const { page, limit } = req.query;
+    // console.log(`id: ${id} -- limit: ${limit} -- page: ${page}`);
     const response = await userService.getLovePosts(id, page, limit);
     return res.status(200).json(response);
   } catch (error) {

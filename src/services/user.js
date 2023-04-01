@@ -56,6 +56,7 @@ export const getLovePosts = (userId, page, limit) => {
   return new Promise(async (resolve, reject) => {
     try {
       const lastLimit = limit ? +limit : +process.env.LIMIT;
+      console.log(`id: ${userId} -- limit: ${lastLimit} -- page: ${page}`);
       let lastOffet = page && +page <= 1 ? 0 : (+page - 1) * lastLimit;
 
       const queries = {
@@ -91,24 +92,24 @@ export const getLovePosts = (userId, page, limit) => {
               },
             ],
 
-            attributes: [
-              "id",
-              "title",
-              "star",
-              "labelCode",
-              "address",
-              "attributesId",
-              "categoryCode",
-              "priceCode",
-              "areaCode",
-              "provinceCode",
-              "description",
-              // "userId",
-              "overviewId",
-              "imagesId",
-              "priceNumber",
-              "areaNumber",
-            ],
+            // attributes: [
+            //   "id",
+            //   "title",
+            //   "star",
+            //   "labelCode",
+            //   "address",
+            //   "attributesId",
+            //   "categoryCode",
+            //   "priceCode",
+            //   "areaCode",
+            //   "provinceCode",
+            //   "description",
+            //   // "userId",
+            //   "overviewId",
+            //   "imagesId",
+            //   "priceNumber",
+            //   "areaNumber",
+            // ],
             through: {
               attributes: [],
             },
