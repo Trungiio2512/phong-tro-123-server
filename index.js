@@ -8,12 +8,12 @@ require("dotenv").config();
 const app = express();
 app.use(cookieParser());
 app.use(
-    cors({
-        // origin: process.env.CLIENT_URL,
-        origin: "http://localhost:3000",
-        methods: ["GET", "POST", "PUT", "DELETE"],
-        // optionsSuccessStatus: 200,
-    }),
+  cors({
+    // origin: process.env.CLIENT_URL,
+    origin: process.env.CLIENT_URL,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    // optionsSuccessStatus: 200,
+  }),
 );
 // app.use(function (req, res, next) {
 //     res.header("Content-Type", "application/json;charset=UTF-8");
